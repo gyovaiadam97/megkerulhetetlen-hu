@@ -163,9 +163,9 @@ footer a{color:var(--muted)}
 .form-slot #kajabi-form .kajabi-form__form-item label{font-size:13px;color:#3b434a}
 
 /* 3D könyv-mockup (CSS, négyzetes keményfedeles) */
-.book3d{--bw:240px;--bt:28px;perspective:1300px;width:calc(var(--bw) + 40px);margin:10px auto 0;padding:14px 0 26px 40px;position:relative}
+.book3d{--bw:240px;--bh:calc(var(--bw) * 0.953);--bt:28px;perspective:1300px;width:calc(var(--bw) + 40px);margin:10px auto 0;padding:14px 0 26px 40px;position:relative}
 .book3d::after{content:"";position:absolute;left:28px;right:-6px;bottom:4px;height:22px;border-radius:50%;background:rgba(20,24,28,.32);filter:blur(10px);z-index:0}
-.book3d-inner{position:relative;z-index:1;width:var(--bw);height:var(--bw);transform-style:preserve-3d;transform:rotateY(26deg) rotateX(4deg);transition:transform .5s ease}
+.book3d-inner{position:relative;z-index:1;width:var(--bw);height:var(--bh);transform-style:preserve-3d;transform:rotateY(26deg) rotateX(4deg);transition:transform .5s ease}
 .book3d:hover .book3d-inner{transform:rotateY(18deg) rotateX(3deg)}
 .b-front,.b-back{position:absolute;inset:0;overflow:hidden;backface-visibility:hidden}
 .b-front{transform:translateZ(calc(var(--bt)/2));border-radius:2px 6px 6px 2px;box-shadow:0 14px 34px rgba(20,24,28,.22)}
