@@ -35,6 +35,14 @@ for f in sorted(glob.glob(os.path.join(ROOT, "content", "*.json"))):
     pages.append(p)
     print(f'  /{p["slug"]}/  <- {os.path.basename(f)}  [{p["template"]}]')
 
+# próba-változatok: content/_variants.json → docs/<slug>/<variant>/index.html
+vf=os.path.join(ROOT,"content","_variants.json")
+if os.path.exists(vf):
+    for v in json.load(open(vf,encoding="utf-8")):
+        base=json.load(open(os.path.join(ROOT,"content",v["slug"]+".json"),encoding="utf-8")); base.update(v["overrides"]); pv=Page(base)
+        html=env.get_template(pv["template"]+".html").render(page=pv, site=SITE, rel="../../").replace('"/assets/','"../../assets/').replace("<head>","<head><meta name=\"robots\" content=\"noindex\">")
+        od=os.path.join(ROOT,"docs",v["slug"],v["name"]); os.makedirs(od,exist_ok=True); open(os.path.join(od,"index.html"),"w",encoding="utf-8").write(html)
+        print(f'  /{v["slug"]}/{v["name"]}/  (próba-változat)')
 # ideiglenes gyökér: a sales-landing jön ide később; addig egy sima lista
 by_ch = {}
 for p in pages: by_ch.setdefault(p.get("fejezet") or "Egyéb", []).append(p)

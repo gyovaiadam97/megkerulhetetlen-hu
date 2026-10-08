@@ -176,3 +176,9 @@ footer a{color:var(--muted)}
 .b-spine span{writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--font-h);font-weight:700;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.9);white-space:nowrap}
 .b-pages{position:absolute;right:0;top:3px;width:calc(var(--bt) - 3px);height:calc(100% - 6px);transform-origin:right center;transform:translateZ(calc(var(--bt)/-2 + 1.5px)) rotateY(90deg);background:repeating-linear-gradient(90deg,#f6f3ec 0 1.5px,#d8d3c7 1.5px 2.5px)}
 @media(max-width:480px){.book3d{--bw:200px;--bt:24px}}
+
+/* Hero Inter betűvel (próba-változat) */
+.font-inter .hero .wordmark,.font-inter .hero h1,.font-inter .hero .author{font-family:"Inter",system-ui,sans-serif;letter-spacing:-.03em}
+.font-inter .hero .wordmark{font-weight:800;letter-spacing:-.035em}
+.font-inter .hero h1{font-weight:700}
+.font-inter .hero .lead,.font-inter .hero .meta{font-family:"Inter",system-ui,sans-serif}
