@@ -12,6 +12,14 @@ env = Environment(loader=FileSystemLoader(os.path.join(ROOT, "templates")), auto
 class Page(dict):
     def __getattr__(self, k): return self.get(k)
 
+# 2026-10-08: a QR-kódok kimentek a kiadónak → ezek a slugok VÉGLEGESEK, a build megáll, ha bármelyik hiányzik
+LOCKED_SLUGS = ["karizma","gundel-takacs-gabor","storycanvas","idokapszula","kocsis-attila","godor-zola","tusnadi-roland","bese-nora","bolya-imre","stressz-teszt","szauer-tamas","luminance","kamera-elotti-magabiztossag","hormonmentes","werk","podcast-booster","branding-roadmap"]
+_present = {json.load(open(f, encoding="utf-8"))["slug"] for f in glob.glob(os.path.join(ROOT, "content", "*.json")) if not os.path.basename(f).startswith("_")}
+_missing = [s for s in LOCKED_SLUGS if s not in _present]
+if _missing:
+    sys.exit(f"HIBA: nyomtatott QR-hoz tartozó slug hiányzik a content/ mappából: {_missing}. A slugokat NEM szabad módosítani (a QR-kódok a kiadónál vannak).")
+if "--cname" not in sys.argv:
+    print("FIGYELEM: --cname nélkül építesz; élesítés előtt `python3 build.py --cname` kell.")
 pages = []
 for f in sorted(glob.glob(os.path.join(ROOT, "content", "*.json"))):
     if os.path.basename(f).startswith("_"): continue
