@@ -29,7 +29,10 @@
 {% macro book_block(p) -%}
 <section class="book">
   <div class="wrap book-grid">
-    <img class="book-cover" src="{{ rel }}assets/img/borito-600.jpg" alt="Megkerülhetetlen, Kaltenecker Kristóf könyve" width="220" height="220" loading="lazy">
+    <div class="book3d" aria-label="Megkerülhetetlen, Kaltenecker Kristóf könyve"><div class="book3d-inner">
+      <div class="b-back"></div><div class="b-pages"></div><div class="b-spine"><span>Megkerülhetetlen</span></div>
+      <div class="b-front"><img src="{{ rel }}assets/img/borito-600.jpg" alt="Megkerülhetetlen, Kaltenecker Kristóf könyve" width="240" height="240" loading="lazy"></div>
+    </div></div>
     <div>
       {% if p.fejezet %}<div class="chapter">{{ p.fejezet }} fejezet</div>{% endif %}
       <h2>{{ p.book_title or 'Folytasd a könyvet' }}</h2>
