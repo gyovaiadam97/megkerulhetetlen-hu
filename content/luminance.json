@@ -14,7 +14,7 @@
  "h1": "Luminance: 70 ember lett egy estére a történetünk része",
  "lead": "A Luminance a Nova partnereseménye. Ez a videó belemutat abba, amit napról napra építünk, és azokba az emberekbe, akikkel építjük.",
  "meta": "Videódoku · Nova Luminance partneresemény",
- "hero_photo": null,
+ "hero_photo": "/assets/img/lum-bn_08692.webp",
  "hero_soon": "Fotó az eseményről hamarosan",
  "video": "XCVth2kInlI",
  "thoughts_eyebrow": "A pohárköszöntőből",
@@ -30,6 +30,68 @@
   "Egy dolog köt itt mindenkit össze: valami új dolgot hozunk létre. És ez sokkal nagyobb, mint önmagunk."
  ],
  "gallery_title": "Luminance fotóalbum",
- "gallery": null,
- "gallery_soon": "Az album hamarosan"
+ "gallery": [
+  {
+   "full": "/assets/img/lum-bn_07867.webp",
+   "thumb": "/assets/img/lum-bn_07867-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_07921.webp",
+   "thumb": "/assets/img/lum-bn_07921-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08025.webp",
+   "thumb": "/assets/img/lum-bn_08025-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08129.webp",
+   "thumb": "/assets/img/lum-bn_08129-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08203.webp",
+   "thumb": "/assets/img/lum-bn_08203-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08222.webp",
+   "thumb": "/assets/img/lum-bn_08222-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08269.webp",
+   "thumb": "/assets/img/lum-bn_08269-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08692.webp",
+   "thumb": "/assets/img/lum-bn_08692-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08725.webp",
+   "thumb": "/assets/img/lum-bn_08725-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08774.webp",
+   "thumb": "/assets/img/lum-bn_08774-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08916.webp",
+   "thumb": "/assets/img/lum-bn_08916-s.webp",
+   "alt": "Luminance partneresemény"
+  },
+  {
+   "full": "/assets/img/lum-bn_08131.webp",
+   "thumb": "/assets/img/lum-bn_08131-s.webp",
+   "alt": "Luminance partneresemény"
+  }
+ ],
+ "gallery_soon": "Az album hamarosan",
+ "hero_alt": "A Nova csapata és a partnerek a Luminance eseményen"
 }

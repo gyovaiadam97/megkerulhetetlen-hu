@@ -14,7 +14,7 @@
  "h1": "A könyv nagyforgatása, a kulisszák mögül",
  "lead": "A könyv borítója, a videobook és a podcast-széria egyetlen nagy forgatási projektből született. Ez az oldal azt mutatja meg, hogyan készült.",
  "meta": "Werkvideó és fotók · Nova",
- "hero_photo": null,
+ "hero_photo": "/assets/img/k-dsc02636.webp",
  "hero_soon": "Werkfotó hamarosan",
  "video": null,
  "soon_title": "A werkvideó vágás alatt",
@@ -25,10 +25,57 @@
   "A könyvben külön írok arról, miért a saját stockkönyvtár a kedvenc építőelemem: a vezetőről készülő pillanatok, a színfalak mögötti munka öt év múlva hatványozottan térül meg. Ez az oldal ennek az elvnek a gyakorlata.",
   "A nagyforgatáson egyszerre készült a borítófotó, a videobook anyaga és a Megkerülhetetlen Edition podcast-széria. A werkvideó és a fotók akkor kerülnek ide, amikor a vágás elkészül."
  ],
- "gallery_title": "Werkfotók a forgatásról",
- "gallery": null,
+ "gallery_title": "A stúdió, ahol a könyv anyagai készültek",
+ "gallery": [
+  {
+   "full": "/assets/img/hq-dsc00829.webp",
+   "thumb": "/assets/img/hq-dsc00829-s.webp",
+   "alt": "A Nova stúdiója"
+  },
+  {
+   "full": "/assets/img/hq-dsc02800.webp",
+   "thumb": "/assets/img/hq-dsc02800-s.webp",
+   "alt": "A Nova stúdiója"
+  },
+  {
+   "full": "/assets/img/hq-dsc02878.webp",
+   "thumb": "/assets/img/hq-dsc02878-s.webp",
+   "alt": "A Nova stúdiója"
+  },
+  {
+   "full": "/assets/img/hq-dsc06185.webp",
+   "thumb": "/assets/img/hq-dsc06185-s.webp",
+   "alt": "A Nova stúdiója"
+  },
+  {
+   "full": "/assets/img/hq-dsc02934.webp",
+   "thumb": "/assets/img/hq-dsc02934-s.webp",
+   "alt": "A Nova stúdiója"
+  },
+  {
+   "full": "/assets/img/hq-dsc02785.webp",
+   "thumb": "/assets/img/hq-dsc02785-s.webp",
+   "alt": "A Nova stúdiója"
+  },
+  {
+   "full": "/assets/img/hq-dsc00836.webp",
+   "thumb": "/assets/img/hq-dsc00836-s.webp",
+   "alt": "A Nova stúdiója"
+  },
+  {
+   "full": "/assets/img/hq-dsc02923.webp",
+   "thumb": "/assets/img/hq-dsc02923-s.webp",
+   "alt": "A Nova stúdiója"
+  },
+  {
+   "full": "/assets/img/hq-dsc02757.webp",
+   "thumb": "/assets/img/hq-dsc02757-s.webp",
+   "alt": "A Nova stúdiója"
+  }
+ ],
  "gallery_soon": "Werkfotó hamarosan",
  "aliases": [
   "megkerulhetetlen_werk"
- ]
+ ],
+ "hero_alt": "Kaltenecker Kristóf a Nova podcast-stúdiójában"
 }

@@ -15,8 +15,8 @@
  "guest": "Gundel Takács Gábor",
  "guest_role": "műsorvezető",
  "host": "Kaltenecker Kristóf",
- "hero_photo": null,
- "hero_caption": null,
+ "hero_photo": "/assets/img/k-65a4662.webp",
+ "hero_caption": "Az epizód werkfotói a vágással együtt érkeznek.",
  "video": null,
  "youtube_url": "",
  "spotify": "",
@@ -36,5 +36,6 @@
  "aliases": [
   "megkerülhetetlen_Gundel_Takacs_Gabor",
   "megkerulhetetlen_Gundel_Takacs_Gabor"
- ]
+ ],
+ "hero_alt": "Kaltenecker Kristóf"
 }

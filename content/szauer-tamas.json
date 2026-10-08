@@ -15,8 +15,8 @@
  "guest": "Szauer Tamás",
  "guest_role": "",
  "host": "Kaltenecker Kristóf",
- "hero_photo": null,
- "hero_caption": null,
+ "hero_photo": "/assets/img/k-dsc09279.webp",
+ "hero_caption": "Az epizód werkfotói a vágással együtt érkeznek.",
  "video": null,
  "youtube_url": "",
  "spotify": "",
@@ -36,5 +36,6 @@
  "aliases": [
   "megkerülhetetlen_Szauer_Tamas",
   "megkerulhetetlen_Szauer_Tamas"
- ]
+ ],
+ "hero_alt": "Kaltenecker Kristóf"
 }

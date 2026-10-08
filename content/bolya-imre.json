@@ -15,8 +15,8 @@
  "guest": "Bolya Imre",
  "guest_role": "a Karizma Podcast műsorvezetője",
  "host": "Kaltenecker Kristóf",
- "hero_photo": null,
- "hero_caption": null,
+ "hero_photo": "/assets/img/k-dsc06382.webp",
+ "hero_caption": "Az epizód werkfotói a vágással együtt érkeznek.",
  "video": null,
  "youtube_url": "",
  "spotify": "",
@@ -36,5 +36,6 @@
  "aliases": [
   "megkerülhetetlen_Bolya_Imre",
   "megkerulhetetlen_Bolya_Imre"
- ]
+ ],
+ "hero_alt": "Kaltenecker Kristóf"
 }

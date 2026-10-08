@@ -15,8 +15,8 @@
  "guest": "Gódor Zola",
  "guest_role": "a Rapid Edu alapítója",
  "host": "Kaltenecker Kristóf",
- "hero_photo": null,
- "hero_caption": null,
+ "hero_photo": "/assets/img/k-65a4748.webp",
+ "hero_caption": "Az epizód werkfotói a vágással együtt érkeznek.",
  "video": null,
  "youtube_url": "",
  "spotify": "",
@@ -36,5 +36,6 @@
  "aliases": [
   "megkerülhetetlen_Godor_Zola",
   "megkerulhetetlen_Godor_Zola"
- ]
+ ],
+ "hero_alt": "Kaltenecker Kristóf"
 }

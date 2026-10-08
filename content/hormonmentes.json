@@ -15,8 +15,8 @@
  "guest": "Cserháti-Herold Janka",
  "guest_role": "a Hormonmentes.hu alapítója",
  "host": "Kaltenecker Kristóf",
- "hero_photo": null,
- "hero_caption": null,
+ "hero_photo": "/assets/img/k-65a4767.webp",
+ "hero_caption": "Az epizód werkfotói a vágással együtt érkeznek.",
  "video": null,
  "youtube_url": "",
  "spotify": "",
@@ -36,5 +36,6 @@
  "aliases": [
   "megkerülhetetlen_hormonmentes",
   "megkerulhetetlen_hormonmentes"
- ]
+ ],
+ "hero_alt": "Kaltenecker Kristóf"
 }

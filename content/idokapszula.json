@@ -14,7 +14,7 @@
  "h1": "Saját szabályokat írunk: a 2025-ös időkapszula",
  "lead": "Nézz bele a csapatunk jelenlegi állapotába. Ezt a videót azért tettem a Rendszerek fejezet elejére, hogy lásd, kikről és miről beszélek, amikor a gépezetet működtető gépezetről írok.",
  "meta": "Videó: Saját szabályokat írunk · Nova, 2025",
- "hero_photo": null,
+ "hero_photo": "/assets/img/k-bn_08916.webp",
  "hero_soon": "Werkfotó hamarosan",
  "video": "XThr6gDvqY4",
  "thoughts_eyebrow": "Miért van itt ez a videó",
@@ -25,6 +25,68 @@
   "Döntések várnak rád. Emberek számítanak rád. Folyamatok állnak meg, ha minden lépéshez szükség van a jelenlétedre. Egy ponton pedig már nem tudsz egyszerűen több órát tenni a napba. Meg kell tanulnod egységnyi idő alatt többet élni. Ez a videó arról szól, hol tartunk ebben mi, 2025-ben."
  ],
  "gallery_title": "A csapat, 2025",
- "gallery": null,
- "gallery_soon": "Fotó hamarosan"
+ "gallery": [
+  {
+   "full": "/assets/img/crew-dsc00956.webp",
+   "thumb": "/assets/img/crew-dsc00956-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc00971.webp",
+   "thumb": "/assets/img/crew-dsc00971-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc00983.webp",
+   "thumb": "/assets/img/crew-dsc00983-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc01000.webp",
+   "thumb": "/assets/img/crew-dsc01000-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc01019.webp",
+   "thumb": "/assets/img/crew-dsc01019-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc01048.webp",
+   "thumb": "/assets/img/crew-dsc01048-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc01073.webp",
+   "thumb": "/assets/img/crew-dsc01073-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc07156.webp",
+   "thumb": "/assets/img/crew-dsc07156-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc07199.webp",
+   "thumb": "/assets/img/crew-dsc07199-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc07635.webp",
+   "thumb": "/assets/img/crew-dsc07635-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc09386.webp",
+   "thumb": "/assets/img/crew-dsc09386-s.webp",
+   "alt": "A Nova csapatának tagja"
+  },
+  {
+   "full": "/assets/img/crew-dsc09409.webp",
+   "thumb": "/assets/img/crew-dsc09409-s.webp",
+   "alt": "A Nova csapatának tagja"
+  }
+ ],
+ "gallery_soon": "Fotó hamarosan",
+ "hero_alt": "A Nova csapata 2025-ben"
 }

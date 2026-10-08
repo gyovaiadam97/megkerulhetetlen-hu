@@ -18,7 +18,7 @@
   "Egy sablon, amit beépítesz, és kiszámíthatóan vonzza az érdeklődőidet.",
   "Úgy érkezel a következő felvételre, hogy tudod, hová szeretnéd eljuttatni a beszélgetést."
  ],
- "asset_placeholder": "Podcast Booster",
+ "asset_placeholder": null,
  "asset_placeholder_sub": "e-book + videós tananyag + adástematika-sablon",
  "form_title": "Kérem a Podcast Boostert",
  "form_text": "Pár másodperc, és az inboxodban van. Utána három napon át küldünk egy-egy rövid levelet, hogy a lehető legjobban kihasználd az anyagot.",
@@ -50,5 +50,7 @@
  "cta_text": "A következő adásod felépítéséhez kész kiindulópontot kapsz.",
  "aliases": [
   "podcast_booster"
- ]
+ ],
+ "asset_photo": "/assets/img/booster-cover.webp",
+ "asset_alt": "Podcast Booster e-book borítója"
 }
