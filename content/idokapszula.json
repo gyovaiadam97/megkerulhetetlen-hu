@@ -25,38 +25,8 @@
   "Döntések várnak rád. Emberek számítanak rád. Folyamatok állnak meg, ha minden lépéshez szükség van a jelenlétedre. Egy ponton pedig már nem tudsz egyszerűen több órát tenni a napba. Meg kell tanulnod egységnyi idő alatt többet élni. Ez a videó arról szól, hol tartunk ebben mi, 2025-ben."
  ],
  "gallery_title": "A csapat és a stúdió, 2025",
- "gallery": [
-  {
-   "full": "/assets/img/team-bn_08916.webp",
-   "thumb": "/assets/img/team-bn_08916-s.webp",
-   "alt": "A Nova csapata és stúdiója"
-  },
-  {
-   "full": "/assets/img/team-bn_08935.webp",
-   "thumb": "/assets/img/team-bn_08935-s.webp",
-   "alt": "A Nova csapata és stúdiója"
-  },
-  {
-   "full": "/assets/img/team-bn_08692.webp",
-   "thumb": "/assets/img/team-bn_08692-s.webp",
-   "alt": "A Nova csapata és stúdiója"
-  },
-  {
-   "full": "/assets/img/hq-dsc00829.webp",
-   "thumb": "/assets/img/hq-dsc00829-s.webp",
-   "alt": "A Nova csapata és stúdiója"
-  },
-  {
-   "full": "/assets/img/hq-dsc02878.webp",
-   "thumb": "/assets/img/hq-dsc02878-s.webp",
-   "alt": "A Nova csapata és stúdiója"
-  },
-  {
-   "full": "/assets/img/hq-dsc06185.webp",
-   "thumb": "/assets/img/hq-dsc06185-s.webp",
-   "alt": "A Nova csapata és stúdiója"
-  }
- ],
+ "gallery": null,
  "gallery_soon": "Fotó hamarosan",
- "hero_alt": "A Nova csapata 2025-ben"
+ "hero_alt": "A Nova csapata 2025-ben",
+ "no_gallery": true
 }

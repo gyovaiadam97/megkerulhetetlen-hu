@@ -24,7 +24,7 @@
 <section><div class="wrap"><div class="quotes">{% for q in page.quotes %}<blockquote class="quote"><p>„{{ q }}”</p><cite>{{ page.quote_by or 'Kaltenecker Kristóf' }}</cite></blockquote>{% endfor %}</div></div></section>
 {% endif %}
 
-<section><div class="wrap">
+{% if not page.no_gallery %}<section><div class="wrap">
   <p class="eyebrow">Galéria</p>
   <h2 class="section-title">{{ page.gallery_title or 'Fotók' }}</h2>
   {% if page.gallery %}
@@ -32,7 +32,7 @@
   {% else %}
   <div class="gallery">{% for i in range(6) %}<div class="gallery-soon">{{ page.gallery_soon or 'Fotó hamarosan' }}</div>{% endfor %}</div>
   {% endif %}
-</div></section>
+</div></section>{% endif %}
 
 {{ ui.book_block(page) }}
 {% endblock %}
