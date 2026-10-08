@@ -18,7 +18,7 @@
  "host": "Bolya Imre, Karizma Podcast",
  "hero_photo": "/assets/img/karizma-dsc00148.webp",
  "hero_alt": "Bolya Imre és Kaltenecker Kristóf szelfit készít a Karizma Podcast forgatásán",
- "hero_caption": "Werkfotó a felvételről: Imi és Kristóf, egy szelfi erejéig.",
+ "hero_caption": null,
  "video": "1LrShjuliN8",
  "youtube_url": "https://www.youtube.com/watch?v=1LrShjuliN8",
  "spotify": "",
@@ -30,7 +30,7 @@
    ],
    "photo": "/assets/img/karizma-dsc00110.webp",
    "alt": "Bolya Imre a mikrofon mögött",
-   "caption": "Imi kérdez. A felvétel még az előző Nova-stúdióban készült."
+   "caption": null
   },
   {
    "text": [
@@ -38,7 +38,7 @@
    ],
    "photo": "/assets/img/karizma-dsc00135.webp",
    "alt": "Kaltenecker Kristóf a Karizma Podcast felvételén",
-   "caption": "Kristóf a válasz közben."
+   "caption": null
   }
  ],
  "topics": [

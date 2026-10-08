@@ -16,7 +16,7 @@
  "guest_role": "a Forbes korábbi vezetője",
  "host": "Kaltenecker Kristóf",
  "hero_photo": "/assets/img/werk-kocsis-attila-dsc09567.webp",
- "hero_caption": "Werkfotó a felvételről.",
+ "hero_caption": null,
  "video": null,
  "youtube_url": "",
  "spotify": "",
@@ -30,7 +30,7 @@
     "Mert a márkaépítés nem egy egyszeri projekt, amin néhány hónapig dolgozol. A márkaépítés egy végtelen játék. Attilával arról beszélgetünk, hogyan néz ez ki egy nagy médiamárka és egy vezető személyes márkája felől nézve. A kész adás kivonata ide kerül, amint az epizód elkészül."
    ],
    "photo": "/assets/img/werk-kocsis-attila-dsc09483.webp",
-   "caption": "Kocsis Attila a felvétel közben.",
+   "caption": null,
    "alt": "Kocsis Attila a Nova stúdiójában"
   }
  ],

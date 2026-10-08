@@ -16,7 +16,7 @@
  "guest_role": "a Karizma Podcast műsorvezetője",
  "host": "Kaltenecker Kristóf",
  "hero_photo": "/assets/img/werk-bolya-imre-dsc08132.webp",
- "hero_caption": "Werkfotó a felvételről.",
+ "hero_caption": null,
  "video": null,
  "youtube_url": "",
  "spotify": "",
@@ -30,7 +30,7 @@
     "A márkád, ami látszik, a jéghegy felső tíz centije. Amit nem lehet lemásolni, az a hatemeletnyi ház a víz alatt: rendszer, tanulság, csapatösszhang, üzleti kapcsolat. Imivel arról beszélgetünk, hogyan néz ki ez a szint belülről. A kész adás kivonata ide kerül, amint az epizód elkészül."
    ],
    "photo": "/assets/img/werk-bolya-imre-dsc08052.webp",
-   "caption": "Bolya Imre a felvétel közben.",
+   "caption": null,
    "alt": "Bolya Imre a Nova stúdiójában"
   }
  ],
