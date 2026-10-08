@@ -19,6 +19,7 @@ for f in sorted(glob.glob(os.path.join(ROOT, "content", "*.json"))):
     assert p["slug"] and p["template"] and p["title"], f
     out_dir = os.path.join(ROOT, "docs", p["slug"]); os.makedirs(out_dir, exist_ok=True)
     html = env.get_template(p["template"] + ".html").render(page=p, site=SITE, rel="../")
+    html = html.replace('"/assets/', '"../assets/')  # tartalomfájlokban abszolút kép-útvonalak
     open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8").write(html)
     # redirect aliases (old Notion slugs etc.)
     for alias in p.get("aliases", []):
