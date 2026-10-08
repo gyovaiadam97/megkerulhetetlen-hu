@@ -31,12 +31,14 @@
    ],
    "photo": "/assets/img/werk-bese-nora-dsc07721.webp",
    "caption": null,
-   "alt": "Dr. Tamásné Bese Nóra a Nova stúdiójában"
+   "alt": "Dr. Tamásné Bese Nóra a Nova stúdiójában",
+   "pos": "50% 15%"
   }
  ],
  "aliases": [
   "megkerülhetetlen_Bese_Nora",
   "megkerulhetetlen_Bese_Nora"
  ],
- "hero_alt": "Dr. Tamásné Bese Nóra és Kaltenecker Kristóf a Nova Podcast felvételén"
+ "hero_alt": "Dr. Tamásné Bese Nóra és Kaltenecker Kristóf a Nova Podcast felvételén",
+ "hero_pos": "50% 15%"
 }
