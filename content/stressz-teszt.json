@@ -1,0 +1,61 @@
+{
+ "slug": "stressz-teszt",
+ "template": "lead",
+ "fejezet": "Rendszerek",
+ "book_title": "Folytasd a könyvet",
+ "book_thoughts": [
+  "A Rendszerek fejezet a gépezetet működtető gépezetről szól: olyan működésről a személyes márkád körül, amely nem követel minden egyes alkalommal emberfeletti erőfeszítést.",
+  "Magadat nem tudod kiszervezni. De azt a rendszert, amely a gondolataidból tartalmat készít, már nem kell minden alkalommal egyedül működtetned.",
+  "A jó rendszer legszebb pillanata az, amikor nélküled is működik. A fejezet végén a Stressz Teszt megmutatja, hol tart ebben a saját működésed."
+ ],
+ "title": "Ingyenes Stressz Teszt a személyes márkád rendszereire",
+ "description": "Nézd meg, hol akad el a saját rendszered. 15 perces videós lecke és kitölthető munkafüzet a könyv olvasóinak, ingyen.",
+ "eyebrow": "Ingyenes a könyv olvasóinak · Rendszerek fejezet",
+ "h1": "Nézd meg, hol akad el a saját rendszered.",
+ "promise": "Készítettem egy rövid, körülbelül 15 perces videós leckét és hozzá egy kitölthető munkafüzetet. A feladat egyszerű: válaszd ki az utolsó tartalmadat, és vezesd végig azon az útvonalon, amin az ötlettől a publikálásig eljutott.",
+ "bullets": [
+  "Hol született az ötlet? Ki vitte tovább? Hol akadt meg?",
+  "Hol kellett neked személyesen közbelépned?",
+  "Melyik ponton nincs még valódi rendszer a háttérben?"
+ ],
+ "asset_placeholder": "Stressz Teszt",
+ "asset_placeholder_sub": "15 perces videólecke + 2 oldalas munkafüzet",
+ "form_title": "Kérem az ingyenes Stressz Tesztet",
+ "form_text": "Add meg az elérhetőségedet, és azonnal hozzáférsz a videóleckéhez és a letölthető munkafüzethez.",
+ "form_embed": "https://nova.mykajabi.com/forms/2149712715/embed.js",
+ "form_cta": "Elkezdem a Stressz Tesztet",
+ "video": null,
+ "video_soon": true,
+ "video_eyebrow": "Először nézd meg ezt a rövid videót",
+ "video_title": "Mit fogsz látni a Stressz Teszt végére",
+ "soon_title": "A bevezető videó hamarosan",
+ "soon_text": "Ha a könyvből érkeztél ide, már tudod, miért fontos a rendszer. Ebben a rövid videóban megmutatom, hogyan térképezzük fel egyetlen valódi tartalmadon keresztül a saját működésedet.",
+ "steps_eyebrow": "Mit kapsz",
+ "steps_title": "Minden, amire a saját diagnózisodhoz szükséged lesz",
+ "steps": [
+  {
+   "title": "15 perces videós lecke",
+   "text": "Végigvezetlek egy valódi tartalmad teljes útján, és megmutatom, mely pontokon érdemes figyelned a várakozásra, a visszakérdezésre és a személyes beavatkozásra."
+  },
+  {
+   "title": "2 oldalas munkafüzet",
+   "text": "Segít fizikailag is felrajzolni a tartalmad útját, majd kijelölni azt a pontot, ahol most a legtöbb súrlódást látod."
+  },
+  {
+   "title": "Egy kérdés, három helyzet",
+   "text": "Egyedül, kisebb csapattal vagy nagyobb volumen mellett ugyanaz a kérdés: hol működik ma a rendszer csak azért, mert te folyamatosan életben tartod?"
+  }
+ ],
+ "body_eyebrow": "A könyvből",
+ "body_title": "A csinálgatásból működő rendszer",
+ "body": [
+  "A fejezet során végig azt néztük, hogyan lesz a csinálgatásból működő rendszer, és hogyan tudsz úgy tartalmat gyártani, hogy ne minden egyes alkalommal a nulláról kelljen újraszervezned mindent. Most arra kérlek, hogy ne elméletben gondolkodj tovább, hanem nézd meg a saját működésedet.",
+  "Ha még egyedül készíted a tartalmaidat, könnyen kiderülhet, mennyi minden él kizárólag a fejedben. Ha már dolgozik melletted vágó, social media manager vagy egy kisebb csapat, inkább az válik láthatóvá, melyik pontokon fut vissza még mindig hozzád a működés. Nagyobb volumen mellett pedig azok az apró súrlódások kezdenek számítani, amelyek egyetlen tartalomnál jelentéktelennek tűnnek, hónapról hónapra viszont órákat vesznek el.",
+  "A gyakorlat végére látni fogod, hol van jelenleg a legnagyobb szűk keresztmetszeted, akár egyedül dolgozol a márkádon, akár már több emberből álló csapat segít."
+ ],
+ "cta_title": "Készen állsz megnézni, hol nincs rendszered?",
+ "cta_text": "Ingyenes hozzáférés. Körülbelül 15 perc. Egyetlen valódi tartalommal dolgozunk.",
+ "aliases": [
+  "stressz_teszt"
+ ]
+}

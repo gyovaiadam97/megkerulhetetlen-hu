@@ -1,0 +1,42 @@
+{% macro wordmark(eyebrow) -%}
+<p class="eyebrow">{{ eyebrow }}</p>
+<p class="author">Kaltenecker Kristóf</p>
+<div class="wordmark">Megkerül-<br>hetetlen</div>
+{%- endmacro %}
+
+{% macro video(v, poster, soon_title, soon_text) -%}
+{% if v %}
+<div class="yt" data-id="{{ v }}" role="button" tabindex="0" aria-label="Videó lejátszása">
+  <img src="https://i.ytimg.com/vi/{{ v }}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+  <div class="play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+</div>
+{% else %}
+<div class="yt-soon">{% if poster %}<img src="{{ poster }}" alt="">{% endif %}<div><strong>{{ soon_title or 'A videó hamarosan érkezik' }}</strong><p>{{ soon_text or 'Az epizód vágás alatt van. Ha elkészül, itt tudod megnézni.' }}</p></div></div>
+{% endif %}
+{%- endmacro %}
+
+{% macro listen_buttons(p) -%}
+<div class="btns">
+  {% if p.spotify or not p.youtube_url %}<a class="btn btn-spotify" href="{{ p.spotify or '#' }}" {% if not p.spotify %}aria-disabled="true"{% else %}target="_blank" rel="noopener"{% endif %}>
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm4.6 14.4a.6.6 0 0 1-.9.2c-2.4-1.5-5.4-1.8-9-1a.6.6 0 1 1-.3-1.2c3.9-.9 7.3-.5 10 1.1.3.2.4.6.2.9zm1.2-2.7a.8.8 0 0 1-1.1.3c-2.8-1.7-7-2.2-10.3-1.2a.8.8 0 1 1-.5-1.5c3.8-1.1 8.4-.6 11.6 1.4.4.2.5.7.3 1zm.1-2.8C14.6 9 9.2 8.8 6.1 9.7a.9.9 0 1 1-.5-1.8c3.6-1.1 9.5-.9 13.2 1.4a.9.9 0 0 1-1 1.6z"/></svg>
+    Meghallgatom Spotify-on</a>{% endif %}
+  <a class="btn btn-yt" href="{{ p.youtube_url or '#' }}" {% if not p.youtube_url %}aria-disabled="true"{% else %}target="_blank" rel="noopener"{% endif %}>
+    <svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+    Megnézem YouTube-on</a>
+</div>
+{% if not p.spotify and not p.youtube_url %}<p class="soon-note">Az epizód vágás alatt van, a linkek hamarosan élesednek.</p>{% endif %}
+{%- endmacro %}
+
+{% macro book_block(p) -%}
+<section class="book">
+  <div class="wrap book-grid">
+    <img class="book-cover" src="/assets/img/borito.jpg" alt="Megkerülhetetlen, Kaltenecker Kristóf könyve" width="150" height="225" loading="lazy">
+    <div>
+      {% if p.fejezet %}<div class="chapter">{{ p.fejezet }} fejezet</div>{% endif %}
+      <h2>{{ p.book_title or 'Folytasd a könyvet' }}</h2>
+      {% for t in p.book_thoughts %}<p>{{ t }}</p>{% endfor %}
+      {% if p.book_cta %}<p><a class="btn btn-outline" href="{{ p.book_cta.url }}">{{ p.book_cta.label }}</a></p>{% endif %}
+    </div>
+  </div>
+</section>
+{%- endmacro %}

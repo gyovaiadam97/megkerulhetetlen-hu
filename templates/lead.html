@@ -1,0 +1,59 @@
+{% extends "base.html" %}{% import "_parts.html" as ui %}
+{% block body %}
+<header class="hero lm-hero"><div class="wrap">
+  {{ ui.wordmark(page.eyebrow or 'Ingyenes a könyv olvasóinak') }}
+  <div class="hero-grid">
+    <div class="hero-text">
+      <h1>{{ page.h1 }}</h1>
+      <p class="lm-promise">{{ page.promise }}</p>
+      {% if page.bullets %}<ul class="lm-list">{% for b in page.bullets %}<li><span class="n">{{ loop.index }}</span><span>{{ b }}</span></li>{% endfor %}</ul>{% endif %}
+      {% if page.asset_photo or page.asset_placeholder %}
+      <figure class="glass lm-asset" style="max-width:360px">{% if page.asset_photo %}<img src="{{ page.asset_photo }}" alt="{{ page.asset_alt or '' }}">{% else %}<div class="lm-asset-ph">{{ page.asset_placeholder }}<small>{{ page.asset_placeholder_sub or '' }}</small></div>{% endif %}</figure>
+      {% endif %}
+    </div>
+    {% if not page.no_form %}<div class="card form-card" id="urlap">
+      <h3>{{ page.form_title }}</h3>
+      {% if page.form_text %}<p class="small muted">{{ page.form_text }}</p>{% endif %}
+      <div class="form-slot">
+        {% if page.form_embed %}<script src="{{ page.form_embed }}"></script>
+        {% else %}<div class="form-placeholder">Az űrlap hamarosan ide kerül.</div>{% endif %}
+      </div>
+      <p class="fine">{{ page.form_fine or 'A megadott adataidat a Nova Produkciós Iroda Kft. kezeli, kizárólag az anyag elküldésére és a hozzá kapcsolódó tájékoztatásra. Bármikor leiratkozhatsz.' }}</p>
+    </div>{% endif %}
+  </div>
+</div></header>
+
+{% if page.video or page.video_soon %}
+<section class="video"><div class="wrap narrow">
+  {% if page.video_title %}<p class="eyebrow">{{ page.video_eyebrow or 'Nézd meg előbb' }}</p><h2 class="section-title">{{ page.video_title }}</h2>{% endif %}
+  {{ ui.video(page.video, None, page.soon_title, page.soon_text) }}
+  {% if page.video_text %}<p class="muted" style="margin-top:14px">{{ page.video_text }}</p>{% endif %}
+</div></section>
+{% endif %}
+
+{% if page.steps %}
+<section><div class="wrap">
+  <p class="eyebrow">{{ page.steps_eyebrow or 'Mit kapsz' }}</p>
+  <h2 class="section-title">{{ page.steps_title }}</h2>
+  <div class="steps">{% for s in page.steps %}<div class="step"><div class="n">{{ '%02d' % loop.index }}</div><h3>{{ s.title }}</h3><p>{{ s.text }}</p></div>{% endfor %}</div>
+</div></section>
+{% endif %}
+
+{% if page.body %}
+<section><div class="wrap narrow">
+  {% if page.body_eyebrow %}<p class="eyebrow">{{ page.body_eyebrow }}</p>{% endif %}
+  {% if page.body_title %}<h2 class="section-title">{{ page.body_title }}</h2>{% endif %}
+  {% for t in page.body %}<p>{{ t }}</p>{% endfor %}
+</div></section>
+{% endif %}
+
+{% if not page.no_form and (page.form_embed or page.form_cta) %}
+<section class="center"><div class="wrap narrow">
+  <h2>{{ page.cta_title or 'Kérd el ingyen' }}</h2>
+  <p class="muted">{{ page.cta_text or '' }}</p>
+  <a class="btn btn-primary" href="#urlap">{{ page.form_cta or 'Kérem az anyagot' }}</a>
+</div></section>
+{% endif %}
+
+{{ ui.book_block(page) }}
+{% endblock %}

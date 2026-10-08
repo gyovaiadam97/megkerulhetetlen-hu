@@ -1,0 +1,45 @@
+{% extends "base.html" %}{% import "_parts.html" as ui %}
+{% block body %}
+<header class="hero"><div class="wrap">
+  {{ ui.wordmark(page.eyebrow or 'Nova Podcast · Megkerülhetetlen Edition') }}
+  <div class="hero-grid">
+    <div class="hero-text">
+      <h1>{{ page.h1 }}</h1>
+      <p class="lead">{{ page.lead }}</p>
+      {% if page.guest %}<p class="meta"><b>Vendég:</b> {{ page.guest }}{% if page.guest_role %}, {{ page.guest_role }}{% endif %}{% if page.host %} · <b>Beszélgetőtárs:</b> {{ page.host }}{% endif %}</p>{% endif %}
+    </div>
+    <figure class="glass hero-photo">
+      {% if page.hero_photo %}<img src="{{ page.hero_photo }}" alt="{{ page.hero_alt or '' }}" width="800" height="600">{% else %}
+      <div class="gallery-soon" style="aspect-ratio:4/3">Werkfotó hamarosan</div>{% endif %}
+      {% if page.hero_caption %}<figcaption>{{ page.hero_caption }}</figcaption>{% endif %}
+    </figure>
+  </div>
+</div></header>
+
+<section class="video"><div class="wrap narrow">
+  {{ ui.video(page.video, page.hero_photo, page.soon_title, page.soon_text) }}
+  {{ ui.listen_buttons(page) }}
+</div></section>
+
+{% if page.excerpt %}
+<section><div class="wrap">
+  <p class="eyebrow">Miről szól a beszélgetés</p>
+  <h2 class="section-title">{{ page.excerpt_title or 'Kivonat a beszélgetésből' }}</h2>
+  {% for row in page.excerpt %}
+  <div class="excerpt-row{% if loop.index is even %} flip{% endif %}">
+    <div>{% for para in row.text %}<p>{{ para }}</p>{% endfor %}</div>
+    <figure class="excerpt-photo">{% if row.photo %}<img src="{{ row.photo }}" alt="{{ row.alt or '' }}" loading="lazy" width="800" height="600">{% else %}<div class="gallery-soon" style="aspect-ratio:4/3">Werkfotó hamarosan</div>{% endif %}{% if row.caption %}<figcaption>{{ row.caption }}</figcaption>{% endif %}</figure>
+  </div>
+  {% endfor %}
+  {% if page.topics %}<ul class="chips">{% for t in page.topics %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
+</div></section>
+{% endif %}
+
+{% if page.quotes %}
+<section><div class="wrap">
+  <div class="quotes">{% for q in page.quotes %}<blockquote class="quote"><p>„{{ q }}”</p><cite>{{ page.quote_by or 'Kaltenecker Kristóf' }}</cite></blockquote>{% endfor %}</div>
+</div></section>
+{% endif %}
+
+{{ ui.book_block(page) }}
+{% endblock %}

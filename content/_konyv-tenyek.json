@@ -1,0 +1,295 @@
+{
+  "_meta": {
+    "forras": "Behind the Book podcast, 9 epizód leirata (~/Downloads/Nova/*.docx), Kaltenecker Kristóf és Mészáros Róbert (Bookship kiadó) beszélgetései a kézirat készítése közben",
+    "megjegyzes": "Minden adat a leiratokban hangzott el. A fejezetek sorrendje a könyvben: Storytelling, Rendszerek (Fenntartható rendszerek), Stratégia. A leiratok a kézirat nyers alapanyagai, a végleges könyvszöveg ettől eltérhet.",
+    "keszult": "2026-10-08"
+  },
+  "konyv": {
+    "cim": "Megkerülhetetlen",
+    "szerzo": "Kaltenecker Kristóf",
+    "alcim": "Maradandó személyes márka a modern vezetőknek",
+    "egymondatos": "Gyakorlati könyv vezetőknek arról, hogyan építs videós tartalommal, operatív terhelés nélkül olyan személyes márkát, ami rendszerekre és stratégiára épül, és megkerülhetetlenné tesz a területeden.",
+    "kinek": "Cégvezetőknek és szakértő vállalkozóknak (ügyvédek, coachok, pszichológusok, tanácsadók), akik a saját tudásuk köré építenek céget, érzik a személyes márka értékét, de nincs rá idejük, rendszerük vagy stratégiájuk. A szerző ideális ügyfele a leiratok szerint egy 200 és 300 millió forint feletti nettó árbevételű cég vezetője, 6 és 15 fő közötti csapattal, aki a trendek előtt akar maradni, de nem tudja, hol kezdje.",
+    "cim_hattere": "A címet vállalkozói csoportokban és egy körülbelül 20 fős mastermindban tesztelték. A szándék, hogy a könyvet ott lehessen hagyni egy tárgyalóasztalon, és a vezető elgondolkodjon rajta akkor is, ha soha többet nem találkoznak. A könyv puha kötésű, színes belívekkel, ábrákkal és egy werkfotó galériával a végén, mellé külön munkafüzet készül.",
+    "kulcsfogalmak": [
+      {
+        "nev": "Lift Off modell",
+        "mi": "Kilenc szintű piramis a személyes márka fejlettségéről, három harmadra osztva: kezdő (lelkes amatőr, specialista), szakértő (szakértő, szaktekintély, véleményvezér) és a csúcs (közismert szakértő, híresség, ikon, vagyis a megkerülhetetlen)."
+      },
+      {
+        "nev": "Identity Layer",
+        "mi": "A vezetői narratíva négy építőeleme, nehézség szerint növekvő sorrendben: küldetés, konfliktus, átalakulás és sebezhetőség. Ha ebből kettőt beépítesz, már tudatosabban formálod, hogyan lát a közönséged."
+      },
+      {
+        "nev": "Trust Funnel",
+        "mi": "A Nova saját módszertana (külön márka, szlogenje: státuszt építünk a vezetőnek), ami a személyes márka három fókuszterületét (top of mind jelenlét, vezetői narratíva, üzleti lehetőségek és hitelesség) három pillérre építi: stratégia, operatív terhelés nélküli márkaépítés és rendszerek."
+      },
+      {
+        "nev": "9 mentális trigger",
+        "mi": "Kilenc visszatérő kapcsoló, ami gyorsítja a vásárlási döntést a videós tartalomban: hitelesség, bizalom, reciprocitás, várakozás, szerethetőség, rituálék, a közösség ereje, közösségi visszaigazolás és a ritkaság (FOMO)."
+      },
+      {
+        "nev": "Signature Voice Pattern",
+        "mi": "Két halmaz metszete: amilyen formátumban önazonosan szeretsz kommunikálni, és ahol a közönséged ténylegesen fogyaszt tartalmat. A metszet adja meg, milyen formátummal érdemes elindulnod."
+      },
+      {
+        "nev": "Három tartalomtípus (halászhajó)",
+        "mi": "Közösségépítő tartalom (a kivetett háló, új emberek elé kerülsz), márkaépítő tartalom (a háló behúzása, a filozófiád és a csapatod megmutatása) és értékesítési tartalom (a halak a fedélzeten). Kezdőnek javasolt arány 65, 25 és 10 százalék."
+      },
+      {
+        "nev": "Három tartalompillér",
+        "mi": "Egy márkatételmondat alatt három oszlop: személyes pillér (a saját látásmódod, hobbijaid, kudarcaid), szakmai pillér (a közönséged elakadásai és a mögöttük lévő tudás) és bizonyíték pillér (eredmények, amiket másoknak már elértél)."
+      },
+      {
+        "nev": "Feedback loop",
+        "mi": "Körkörös mechanizmus: elérsz egy eredményt, dokumentálod, bizonyítékká alakítod, ettől nő a szolgáltatásod értéke, több ügyfél jön, még több bizonyítékot gyűjtesz. A személyes márkaépítés a bizonyítékokkal indul."
+      },
+      {
+        "nev": "Niche helyett márkaidentitás",
+        "mi": "A niche azt mondja meg, miről beszélsz, a célközönség azt, kinek. Kristóf szerint a közönséget a vezető gondolkodása köré kell építeni, mert az ilyen közönség akkor is vele marad, ha témát vált. Egyenletként: bizonyíték plusz emberi hitelesség egyenlő niche."
+      },
+      {
+        "nev": "Hatástöbbszörözés és a 4C",
+        "mi": "Naval Ravikant tőkeáttét-modellje: Collaboration, Capital, Code, Content. Egy harmincperces podcast egyszer készül el, utána a vezető ideje nélkül dolgozik tovább. Ez a tartalommarketing alapelve."
+      },
+      {
+        "nev": "Végtelen játék",
+        "mi": "Alex Hormozi gondolata: a márkaépítésben egyetlen korlát van, az idő. Aki tovább bírja konzisztensen, mint a konkurenciája, annak végtelen előnye lesz. Nyolc gát akadályozza: perfekcionizmus, megfelelési kényszer, túltervezés, inkonzisztencia, hitetlenség, felelősséghárítás, színlelt szaktudás és az egó."
+      },
+      {
+        "nev": "150 óra szabály",
+        "mi": "Egy 2024-es amerikai tanulmány szerint az agyban ugyanaz zajlik 150 órányi tartalomfogyasztás után, mint egy közeli barátság esetén. 150 óra az 9000 perc: 18 ezer darab 30 másodperces videó, 150 egyórás adás vagy 900 tízperces YouTube-videó."
+      },
+      {
+        "nev": "Történeti szög",
+        "mi": "A mesélő nézőpontja. Ha túl tág, mindent el akarsz mesélni, ha túl szűk, nincs tér a feszültségnek. A globális témát addig kell szeletelni, amíg egyetlen ember történetévé válik (telefonfüggőség helyett: elmegyek dopamin detoxra)."
+      },
+      {
+        "nev": "Vakondtúrás",
+        "mi": "Találd meg azt a tartalomgyártást, ami a saját élethelyzeteddel könnyen összeegyeztethető, így nem kell hegyeket megmozgatnod a konzisztenciáért. Aki a stúdióban tölti a napját, az stúdiótartalmat készítsen, aki úton van, az útközben forgasson."
+      },
+      {
+        "nev": "Idő-audit",
+        "mi": "Dan Martell módszere Kristóf kiegészítésével: negyedévente két hétig méred az idődet, minden tevékenységre jelzőlámpát (zöld feltölt, piros lemerít, sárga kiszervezném) és egytől négyig dollárjelet teszel, majd négy kvadránsba rendezed, és a bal alsót szervezed ki először."
+      },
+      {
+        "nev": "Script négy szintje",
+        "mi": "Szó szerinti script (hirdetési videó), bulletpontos script (e-learning, folyamatvideó, onboarding), kérdés-alapú script (podcast, dokumentumfilm) és freestyle (egy munkacím, gyakorlott előadóknak). Minden szinttel kontrollt adsz fel és szabadságot nyersz."
+      },
+      {
+        "nev": "Scriptírás négy lépése és kilenc ökölszabálya",
+        "mi": "Kutatás, struktúra, írás, szerkesztés. A kilenc szabály: néző iránti empátia, tartsd a vázat, gondolkodj audiovizuálisan, térj a lényegre, egy mondat egy gondolat, pontos szavak, beszélt nyelvezet, saját hang, sebezhetőség. Azért ismered a szabályokat, hogy tudatosan megszeghesd őket."
+      },
+      {
+        "nev": "Head of CEO Content",
+        "mi": "Most megjelenő pozíció nagyobb cégeknél: egy ember, aki kizárólag a vezető tartalmáért felel, és akár hat-hét fős in-house médiacsapatot vezet. A Nova ezt a szerepet ügynökségként tölti be a partnereinél."
+      },
+      {
+        "nev": "In-house tartalomgyártó csapat",
+        "mi": "A cégek saját médiacéggé válnak. Kezdő szinten egy virtuális asszisztens vagy social media manager, középső szinten három-négy fő (social manager, vágó, operatőr, opcionális creative director), a csúcson 6 és 15 fő közötti saját médiaügynökség."
+      },
+      {
+        "nev": "A gépezetet működtető gépezet",
+        "mi": "A rendszerek, amikre a legrosszabb napodon visszaesel: belső tartalommenedzsment (kanban, a projektmenedzsmenttől külön), fájlkezelés és backup, valamint saját stock könyvtár a vezetőről készült felvételekből, aminek az értéke öt év múlva derül ki."
+      },
+      {
+        "nev": "Világépítés",
+        "mi": "A legerősebb márkák saját univerzumot építenek, amihez tartozni akar a közönség. Építőkövei: metaforák, eredetsztorik, saját terminológia és keretrendszerek, alapelvek, a márka ellensége, egyenletek, szereplők és lépésről lépésre útmutatók."
+      },
+      {
+        "nev": "Mikro- és makrotörténet",
+        "mi": "A mikrotörténet egy rövid időtartam alatt elmesélt esemény, a makrotörténet a mikrotörténetekből kirajzolódó nagy gerinc, a vezető eredetsztorija. A makrotörténet tudatos faragása a vezetői narratíva."
+      },
+      {
+        "nev": "Mintafelismerés és mintatörés",
+        "mi": "Tünet helyett a mögötte lévő mintázatot kell meglátni, aztán rendszert és sablont építeni rá. A marketingben a várható következő pillanat megtörése (pattern interruption) tartja fenn a figyelmet."
+      },
+      {
+        "nev": "Category of One",
+        "mi": "A piramis tetején a márkaépítő saját kategóriát alkot a formátumaival és a gondolkodásával, és a saját tengerének a határait növeszti. Innen már csak felszínesen lehet lemásolni, a jéghegy víz alatti része, a rendszerek, nem látszanak."
+      },
+      {
+        "nev": "Value First",
+        "mi": "Kristóf mottója: előbb érték, csak utána ajánlat. Ökölszabály: tízszer akkora értéket adj, mint amennyit kérsz, és tíz módon csökkentsd a rizikóérzetet."
+      },
+      {
+        "nev": "Az egyetlen mérőszám",
+        "mi": "Egyetlen számért tudsz száz százalékban felelősséget vállalni: hány videós projektet fejezel be és posztolsz ki. Nem a lájkok, nem a megtekintések. A kezdő harmadban minden más metrikát ki kell dobni az ablakon."
+      },
+      {
+        "nev": "Agresszív transzparencia",
+        "mi": "Kristóf saját döntése: a legsötétebb pillanatokat is dokumentálják. A sebezhetőség egy potméter nullától százig, mindenki maga dönti el, mennyit mutat, de a teljes hiánya gyengíti az azonosulást és az érzelmi elköteleződést."
+      },
+      {
+        "nev": "OKR",
+        "mi": "A Measure What Matters könyvből átvett célkitűzési keret: egy átfogó Objective és mérhető Key Results. A Nova célja: a legminőségibb és legnagyobb mennyiségű tartalmat előállító ügynökség lenni, havi 35 tartalomtestről 100-ra, majd 200-ra lépve."
+      }
+    ]
+  },
+  "fejezetek": {
+    "storytelling": {
+      "lenyeg": "A fejezet azt tanítja meg, miért a történetmesélés a 21. század legfontosabb készsége, ha figyelmet, bizalmat és időt akarsz kapni az emberektől, és hogyan építs vezetői narratívát a saját életutadból. Végigmegy a jó történet három jellemzőjén (azonosulás, érzelmi elköteleződés, emlékezetes üzenet), az Identity Layer négy elemén (küldetés, konfliktus, átalakulás, sebezhetőség), a nem lineáris eszközökön, a feszültség-görbén és a történeti szögön, mindegyikhez öt perces papíros feladattal.",
+      "gondolatok": [
+        "Egy történet az egész értékrendet meg tudja változtatni, és a feje tetejére tudja állítani a világot. Ezt Zente története tanította meg.",
+        "A hétköznapi ember rossz történetmesélő, mert csak a hozzá közel állóknak mesél, akiknek van türelmük hozzá, és lineárisan meséli el, mi történt. Egy idegen a Kálvin téren öt másodperc után faképnél hagyná.",
+        "Az igazán jó történetmesélők két síkot mesélnek egyszerre: a fizikai utazást és a mentális utazást, és megmutatják, hogyan hat a kettő egymásra.",
+        "Ha megtanulsz kommunikálni a gyengébb pillanataidról, azzal bizalmi viszony indul el: a befogadó a figyelmével hálálja meg, hogy beavattad.",
+        "Ha csak egy dolgot viszel el a fejezetből: arról mesélj, ami a szenvedélyed, ami nem hagy aludni. Akkor a munka nagy részét már elvégezted, mert magasabb energiaszinten és mélyebb tájékozottsággal beszélsz róla, mint bárki más."
+      ],
+      "peldak": [
+        "Zente, a másfél éves SMA-beteg kisfiú videója: egy hét alatt írt forgatókönyv, két hét alatt másfél millió megosztás, és összegyűlt a világ legdrágább gyógyszerére a 700 millió forint.",
+        "Az egyetemi üzlettárssal heti három YouTube-videó három éven át, körülbelül 460 videó. Az első 250-300 próbaüzem volt, a 320. körül ugrott ki az első. A végére 65 ezer feliratkozó, az átlagos megtekintési idő 25-30 százalékról 40-55 százalékra nőtt a tudatos vezetői narratíva miatt.",
+        "Egy 500 fős előadáson az erős személyes márka tíz perc bizalmi tartalékot ad: belefér, hogy hibázol, hogy túlizgultad, hogy nem tudtál felkészülni.",
+        "Az elköteleződés lépcsője: mozi, Netflix, podcast, tízperces YouTube-videó, reels. Egy reelsnél három másodperc van a figyelemre, és egy hüvelykujj-mozdulat a kilépés.",
+        "A Tenet kulcstartója mint visszacsatolás, a 24 című sorozat mint cliffhanger, a forró fazék mint emlékezetes tanulság.",
+        "A japán utazós videó példája: Japán, japán gasztronómia, sushi, végül egy sushi séffel készült mini interjú, amin keresztül a japán alázatot ismered meg."
+      ]
+    },
+    "rendszerek": {
+      "lenyeg": "A fejezet a Lift Off modell három harmadán vezet végig, és mindegyik szinten három szempontot vizsgál: formátumok és csatornák, az in-house tartalomgyártó csapat, valamint a konzisztencia és a volumen. Megtanítja, hogyan teremts magadnak olyan feltételeket, ahol nem kell hegyeket megmozgatni a tartalomgyártáshoz, mert a tartalomtípusok, a pillérek, a tartalommenedzsment-rendszer és az in-house csapat viszik a terhet. A szerző szerint ez a fejezet hordozza a legnagyobb gyakorlati értéket és a Nova szemléletének a kulcsát.",
+      "gondolatok": [
+        "A személyes márka olyan, mint egy osztalékfizető részvény, csak saját magadba fekteted. Előre kell óriási értéket teremtened, és csak egy billenőpont után kezd bevételként működni.",
+        "Egy darab short videó vagy egy darab podcast epizód soha nem fogja meghatározni a márkád mélységét. Hónapokban és félévekben kell gondolkodni, a sok fogalmát pedig legalább háromszor-négyszer ki kell merítened, amíg a mennyiség minőséggé válik.",
+        "A legrosszabb napunkon a rendszereink szintjére esünk vissza. Ezért kell a gépezetet működtető gépezet: tartalommenedzsment, fájlkezelés, saját stock könyvtár.",
+        "Káoszt nem lehet skálázni. Olyan, mintha egy rosszul optimalizált kereszteződéshez hat új sávot adnál logika nélkül.",
+        "Minden perc, amit vezetőként nem színpadon, nem podcastben, nem a saját tartalmadban töltesz, kihagyott ziccer. Ki kell jönni az operatív terhelésből, hogy a kommunikációra maradjon időd."
+      ],
+      "peldak": [
+        "A Nova átlagos ügyfél-élettartama 3-4 év a szokásos ügynökségi 3-6 hónap helyett, egy partnerrel, a Bethesda Gyermekkórházzal 8 éve dolgoznak.",
+        "Gódor Zoli és a Rapid Edu csapata: több mint négy év alatt közel 3200 videós tartalom, 4-5 millió TikTok-lájk, teljes középfokú matek, angol, magyar és történelem tananyag.",
+        "Knapek Éva klinikai szakpszichológus csapata: 11-12 különálló formátum, heti 2-3 forgatás, havonta több tíz óra tartalom, a teljes tartalommenedzsment újrahúzása után heti 3-4 ügyvezetői óra visszanyerve. Fél év alatt körülbelül két e-mailt kellett váltani.",
+        "Kristóf 300-350 vállalkozóval ült le tanácsadáson: a felső 10-15 százalék jut el a középső harmadig, a többség megreked a rendszerek és a stratégia hiánya, a kudarc és a mentális gátak miatt.",
+        "Száz emberből a top tíz lép át a kezdő harmadból a középsőbe, ezer emberből a top tíz a középsőből a felsőbe, tízezerből egy lesz ikon.",
+        "A kamera előtti elégedetlenségre szóló feladat: egy-két perces rögtönzött videó vasalódeszkára támasztott telefonnal, egy éjszaka pihentetés, másnap háromféle elemzés (csak kép, csak hang, leirat), majd két-két-két fejlesztési pont. Kristóf ő-zését egy kutyás klikkerrel szoktatták le.",
+        "Idő-audit: Kristóf heti 76,8 órát dolgozik, naponta körülbelül 11-et, szünetek és alvás nélkül számolva.",
+        "A Nova tartalommenedzsment rendszere egyszerre 100-150 projektet és forgatást követ a legutolsó short videóig, és három nap alatt szét kellett választani a saját kommunikáció rendszerétől, mert összecsúszott."
+      ]
+    },
+    "strategia": {
+      "lenyeg": "A fejezet arról szól, hogyan kerüljön párhuzamba a stratégiai cél a kommunikációval, mert ha a kettő elnő egymástól, a levegőbe gyártasz tartalmat. Bemutatja a Trust Funnel módszertant, a személyes márka három fókuszterületét és a hozzájuk tartozó formátumokat, a kilenc mentális triggert, ami gyorsítja a vásárlási döntést, az ajánlati létrát és a konverziónövelő videós formátumokat (video sales letter, webinár, e-learning), végül egy scriptírás masterclasst. Kristóf szerint a stratégia nem a tervezésről szól, hanem az önuralomról: arról, hogy a nehezebb utat és a késleltetett jutalmat válaszd.",
+      "gondolatok": [
+        "A legnagyobb hiba, amit egy vezető elkövet, hogy a stratégiai céljai nincsenek párhuzamban az előállított tartalommal. Ilyenkor a piacot, az algoritmust és a csapatot hibáztatja, pedig az elején kellett volna megérteni, hogyan jár kéz a kézben a stratégia a márkakommunikációval.",
+        "A személyes márka hozzáadott értéke nem tölcsérben mérhető, hanem pókhálóban: ha egy ponton állítasz valamit, az huszonöt másik dologra hat.",
+        "Előbb az számít, mit mondasz, és csak utána, hogyan mondod. A scripttel egy zseb-feketelyukat hozol létre, ahol megáll az idő, és papíron még olcsó a hibázás.",
+        "A figyelem volt az előző korszak nyersanyaga, most a bizalom, a következő az eredetiség lesz. Az AI-jal írt szöveget a közönség egyre jobban felismeri, ezért a saját gondolatokat nem szabad kiszervezni.",
+        "Aki rövid távon próbál értéket realizálni a márkaépítésen, kemény fába vágja a fejszéjét. Egy jó stratégia viszont a 5 éves utat két-három évre tudja összenyomni."
+      ],
+      "peldak": [
+        "2024-ben a Nova több mint egymilliárd forint extra bevételt termelt a partnereinek organikus tartalomgyártással.",
+        "A Peter Cerny Alapítvány koraszülöttmentő szervezet első, a Novával levezényelt 1 százalékos kampánya 90 millió forintot hozott, ezzel bekerültek a top tíz támogatott alapítvány közé.",
+        "Amíg a Nova saját értékesítésében nem volt videós tartalom, az ajánlatok gyengén teljesítettek. Az esettanulmány- és visszajelzés-videókba beépített egy-egy mentális trigger után javult a konverzió.",
+        "Egy webinár 55 percig ad értéket, hogy az utolsó öt percben sokkal nagyobb eséllyel vásároljanak. A Nova egyik saját webinárja másfél óra helyett négy és fél óráig tartott, mert Kristóf minden kérdésre válaszolt, közben a portás kopogott, hogy bezár az irodaház.",
+        "A Rapid Edu csapatával egy három-három és fél órás forgatáson 40 darab három-öt perces e-learning videót rögzítenek, mert a tartalom előre meg van írva.",
+        "A kilenc trigger közül a ritkaság példája: egy webinár után a résztvevők maguk kérték, legyen határidő az ajánlatra, hogy rá tudják kényszeríteni magukat a döntésre.",
+        "Az önismereti feladat: egy AI-nak feltett kérdés a saját vakfoltjaidról. Kristófé azt adta vissza, hogy a teljesítményorientáltság elrejti az érzelmi szükségleteket, és hogy túl hamar módosít a rendszerein, mielőtt hatnának."
+      ]
+    }
+  },
+  "sztorik": [
+    {
+      "cim": "Zente",
+      "osszefoglalo": "Egy héttel azelőtt, hogy otthagyta az egyetemet, felhívta egy édesanya a kollégiumban: a másfél éves kisfiának SMA-ja van, és a világ legdrágább gyógyszerére van szüksége két éves kora előtt. Kristóf nulla történetmesélési tudással egy hét alatt megírta a videót, ami két hét alatt másfél millió megosztást ért el, és összegyűlt a pénz. Zente ma teljes életet él, a Bethesda Gyermekkórház pedig a kezelés európai központja lett.",
+      "szamok": "700 millió forint (körülbelül 2,1 millió dollár), 1,5 millió megosztás 2 hét alatt, azóta 31-32 SMA-kezelés a Bethesdában"
+    },
+    {
+      "cim": "Az egyetemi üzlettárs és a 460 videó",
+      "osszefoglalo": "Egy Kristóf nevű üzlettárs online marketinges brandjéhez három éven át heti három YouTube-videót vágott, még a kollégiumban, vasalódeszkára támasztott kamerás felvételekből. Az első másfél-két évben semmi hatása nem volt, a 320. videó körül jött az első siker, és abból tanulták meg szétszedni, mi működik.",
+      "szamok": "460 videó, 65 ezer feliratkozó a végére (ma közel 100 ezer), 400-500 ezer fiatal élete, megtekintési idő 25-30 százalékról 40-55 százalékra"
+    },
+    {
+      "cim": "A gyógytornász, aki kiugrott",
+      "osszefoglalo": "Állatorvos akart lenni, de az emelt kémiát az utolsó pillanatban elengedte, a SOTE gyógytornász szakról egy ponttal lemaradt, pótfelvételivel Pécsre került a város legrosszabb kollégiumába. Az egyetem felénél kiugrott, mert rájött, hogy többet tud adni azzal, amit szeret, és az első évben már egyéni vállalkozást nyitott.",
+      "szamok": "1 pont a felvételin, 40 ezer forint az utolsó HÖK-ös videómegbízásért, 16 év kézilabda"
+    },
+    {
+      "cim": "A bútorraktár Budafokon",
+      "osszefoglalo": "Másfél évvel a Kft alapítása után Kristóf visszament egy napra ingyen pakolni egy használt bútorraktárba, ahol régen diákmunkázott, hogy megtanulja értékelni a helyzetét. Tíz-tizenkét óra furgonozás után másnap reggel a saját asztalánál ülve jött a reality check: privilégium, hogy nyomás van rajtad.",
+      "szamok": "1 nap, 0 forint, 10-12 óra pakolás"
+    },
+    {
+      "cim": "Mauritánia és a Szahara szeme",
+      "osszefoglalo": "Egy Facebook-csoportban keresett operatőrt egy expedíció, ami Platón Atlantisz-leírásait akarta összevetni a Richat-struktúrával. Tíz nap a Szaharában, két nap a fővárosban egy lepukkant szálláson, ahol Kristóf egy 1300 dolláros dokumentumfilmes kurzus első három moduljából tanulta meg, hogyan kell narratívát forgatni, nem csak szép képeket.",
+      "szamok": "10 nap, 400 kilométer a Szaharában, 5 nap sátorban a képződmény közepén, 45 perces dokumentumfilm"
+    },
+    {
+      "cim": "A dél-afrikai YouTuber vágói pozíciója",
+      "osszefoglalo": "Egyéni vállalkozóként jelentkezett egy 900 ezer feliratkozós angol nyelvű YouTuber vágójának, ami egy teljesen másik, dél-afrikai karrierutat jelentett volna. Több mint tízezer óra vágói rutinnal a top tízbe jutott, ott esett ki. Tanulság: ha nincs fókuszod, semmilyen szél nem kedvez.",
+      "szamok": "900 ezer feliratkozó, 200-300 jelentkező, top 10, 10 ezer óra vágás"
+    },
+    {
+      "cim": "Az állásinterjú, amit nem lett volna szabad",
+      "osszefoglalo": "Fél évvel a Kft alapítása után, egy nehéz időszakban elment állásinterjúra egy céghez. Nem hitték el, hogy a portfóliója a sajátja, megkapta az állást, aztán e-mailben olyan bérigényt írt, amire nem is válaszoltak. Rájött, hogy minden vállalkozói elvét feladta volna.",
+      "szamok": "fél év a Kft után"
+    },
+    {
+      "cim": "Bethesda Gyermekkórház, nyolc év",
+      "osszefoglalo": "A Nova legrégebbi partnere, még Kristóf egyéni vállalkozó korából. Covid alatt az egészségügyi dolgozók Jerusalema-flashmobjából készült tartalom hat-hétmilliós összmegtekintést ért el, és rendesen megemelte az évi 1 százalékos támogatást. Havi egy videóból azóta hét-nyolc formátum lett, a kommunikációs csapatot pedig a Nova képezte ki, hogy ügynökséggel tudjanak dolgozni.",
+      "szamok": "8 év, 6-7 millió megtekintés, 7-8 formátum, 5-10 ponton hatékonyabb egy későbbi kampányban"
+    },
+    {
+      "cim": "Rapid Edu és az Érettségi Fesztivál drónvideója",
+      "osszefoglalo": "Gódor Zolival a CEU kávézójában kezdődött az együttműködés egy ingyen felajánlott stúdióalkalommal. Az első Érettségi Fesztiválon a Kongresszusi Központban előző este találták ki a másfél perces egysnittes versenydrónos videót: a jel kimaradásánál Kristóf elkapta a drónt, levitte a lépcsőn, a nagyelőadóban újra felszállt, a végén Zoli kapta el egy pulóverrel. Egyetlen tízperces időablakuk volt rá.",
+      "szamok": "4-4,5 év együttműködés, 3200 videó, 450 diák a teremben, 10 perces időablak"
+    },
+    {
+      "cim": "Knapek Éva és a tizenkét formátum",
+      "osszefoglalo": "Több mint egy évig érlelte a gondolatot, hogy Éva csapatával dolgozzon, végül egy konferencián találkoztak, ahol Éva először a hormonmentes.hu alapítóját, Cserháti-Herold Jankát ajánlotta be. Ma Éviéknek 11-12 formátumot gyártanak, a teljes belső tartalommenedzsmentet újrahúzták, és a csapatok dashboardon egyeztetnek, nem e-mailben.",
+      "szamok": "11-12 formátum, heti 2-3 forgatás, heti 3-4 ügyvezetői óra megspórolva, 2 e-mail fél év alatt"
+    },
+    {
+      "cim": "Peter Cerny Alapítvány 1 százalékos kampánya",
+      "osszefoglalo": "A koraszülöttmentő alapítvánnyal négy éve dolgoznak. Az első kampányban, amit a Nova vezényelt le, 90 millió forint gyűlt össze, és bekerültek a tíz legtámogatottabb alapítvány közé. Kristóf ezt hozza példának a szakmai hitelesség bizonyítására.",
+      "szamok": "90 millió forint, top 10, 4 év"
+    },
+    {
+      "cim": "A költözés 93-ról 240 négyzetméterre",
+      "osszefoglalo": "A könyvírás közben költöztek az előző, 100 négyzetméter alatti kreatív főhadiszállásról egy két és félszer nagyobb helyre két stúdióval. Az üvegplafon fizikai volt: nem fért több munkaállomás, kellett back office munkatárs, új foglalási logika, és egy középvezető Kristóf alá. Három hónapig nem volt aktív bevétele, amikor a rendszereket építette.",
+      "szamok": "93-100 négyzetméterről 240-250-re, 2,5-szeres alapterület, 2 stúdió, 3 hónap bevétel nélkül"
+    },
+    {
+      "cim": "A négy és fél órás webinár",
+      "osszefoglalo": "Egy nagyobb tananyag webinárja másfél órára volt tervezve, de Kristóf négy és fél órán át válaszolt a kérdésekre, Ádi moderálta a chatet, és a portás kopogott be este tizenegykor, mert az irodaház kilenckor zárt. A viszonosság elve ilyenkor sokszorosan érvényesül.",
+      "szamok": "1,5 óra helyett 4,5 óra, este 7-től 11-ig"
+    },
+    {
+      "cim": "Ádi, aki felmondott, hogy együtt kezdjék",
+      "osszefoglalo": "Ádám, a Nova pénzügyi vezetője, biztosíték nélkül felmondott a munkahelyén, hogy Kristóffal indítsa a vállalkozást. Analitikus, adatalapú, Kristóf gyengéit ő egyensúlyozza ki. Kéthetente pénzügyi áttekintést tartanak, és pénzben mérhető számonkérői megállapodásokat kötnek egymással.",
+      "szamok": "kéthetente pénzügyi áttekintés"
+    },
+    {
+      "cim": "A Storytelling Bootcamp a tetőtérben",
+      "osszefoglalo": "A közel négyórás storytelling tananyag egy 12 órás, 92 videóleckés képzés része, amit a 20 négyzetméteres első tetőtéri irodában forgattak, mobil klímával az ablakban és terpeszben állva, hogy ne lógjon be a tetőtér. Majdnem egy évig tartott megírni, felvenni és animálni.",
+      "szamok": "92 lecke, 12 óra tananyag, 20 négyzetméter, 1 év"
+    },
+    {
+      "cim": "A Karizma podcast és Bolyai Imre",
+      "osszefoglalo": "Egy networking eseményen ültek egymás mellé egy panelbeszélgetésen, és a podcastekről kezdtek beszélgetni. A Nova addigra 2000-3000 podcast epizódot gyártott az ügyfeleinek. A beszélgetésből stratégiai partnerség lett, és Imre meghívta Kristófot a Karizma podcastbe.",
+      "szamok": "2000-3000 legyártott podcast epizód"
+    },
+    {
+      "cim": "A saját AI-scriptes shortok kudarca",
+      "osszefoglalo": "A Nova egy időben AI-jal írt scriptekből nagy mennyiségben gyártott short videót a saját kommunikációjára. Kristóf büszke volt a volumenre, de a végeredmények nem lettek eredetiek. Azóta az AI-t csak ötletelésre és struktúrára használja, a szöveget maga írja.",
+      "szamok": "9-10 területen használnak AI-t az ügynökségi munkában, a szövegírásban nem"
+    },
+    {
+      "cim": "Az idő-audit és a 76,8 óra",
+      "osszefoglalo": "Negyedévente két hétig méri az idejét, először post-it cetlikről Notionba vezetve, ma Toggl appal. A mérés mutatta meg, hogy heti 76,8 órát dolgozik, és ebből indulva szervezi ki azokat a feladatokat, amik nem töltik fel és alacsony az idejének a hozzáadott értéke.",
+      "szamok": "76,8 óra hetente, 11 óra naponta, 2 hét mérés negyedévente"
+    },
+    {
+      "cim": "A kezdő stúdió és a 400-500 ezer fiatal",
+      "osszefoglalo": "Három éven át Airbnb-kben bérelt remote stúdiókban forgattak egy nap alatt 10-12 tizenöt perces YouTube-videót az üzlettárs brandjéhez, amelynek az volt a víziója, hogy mindent átadjon a fiataloknak, amit az iskolában nem tanítanak.",
+      "szamok": "10-12 videó egy forgatási napon, 400-500 ezer fiatal"
+    }
+  ],
+  "kristof_rovid_bio": "Kaltenecker Kristóf 27 éves, a Nova kreatív ügynökség alapító vezetője, aki gyógytornász szakról ugrott ki az egyetem felénél, és nyolc év alatt egyéni vállalkozóból 9-11 fős, 24 év átlagéletkorú csapatot épített 250 négyzetméteres kreatív főhadiszállással és két stúdióval. Olyan piacvezető személyes márkákkal dolgozik, mint Gódor Zoli (Rapid Edu, 3200 videó), Knapek Éva vagy a Bethesda Gyermekkórház, 300-350 vállalkozóval ült le tanácsadáson, az ügyfelei átlagosan 3-4 évig maradnak, és 2024-ben több mint egymilliárd forint extra bevételt hozott a partnereinek organikus tartalommal.",
+  "nova_tenyek": {
+    "csapat": "9-11 fő a könyvírás idején, 24,1 év átlagéletkor, a könyv megjelenésére 12 fő, két éven belül 22 fő a terv",
+    "ugyfelek": "52 állandó ügyfél, átlagos ügyfél-élettartam 3-4 év (hagyományos ügynökségi 3-6 hónap helyett)",
+    "iroda": "240-250 négyzetméteres kreatív főhadiszállás két stúdióval, az előző 93-100 négyzetméter volt, az első 20 négyzetméteres tetőtér; vízió: 1000 négyzetméteres kreatív központ 100-150 fős rendezvényteremmel",
+    "profil": "Nem marketingügynökség, hanem stratégiai, konverzióoptimalizált stúdiótartalmat gyártó és tanácsadó cég, ami a partnerei in-house médiacsapatát helyettesíti; nem kezel hirdetéseket",
+    "sajat_kommunikacio": "5 short és 3 long formátum, havi 35 tartalomtest, cél 100, majd 200; formátumok: szakmai podcast, talk show Ádámmal, CEO's Diary vlog",
+    "partnerek_emlitve": "Bethesda Gyermekkórház, Rapid Edu (Gódor Zoli), Knapek Éva, Peter Cerny Alapítvány, hormonmentes.hu (Cserháti-Herold Janka), Gundel Étterem, OTP Bank, BMW, Telekom, Pannon Watt, Amigos Alapítvány, Bolyai Imre (Karizma podcast)",
+    "kristof_sajat_markaja": "Saját bevallása szerint az alsó harmad teteje és a középső harmad alja között jár, mert az ügynökségi munka elveszi az időt; tételmondata: vezetőknek olyan személyes márkát segít építeni, ahonnan nem kell szabadságra menniük"
+  }
+}

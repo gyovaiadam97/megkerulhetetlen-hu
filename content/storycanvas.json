@@ -1,0 +1,55 @@
+{
+ "slug": "storycanvas",
+ "template": "lead",
+ "fejezet": "Storytelling",
+ "book_title": "Folytasd a könyvet",
+ "book_thoughts": [
+  "A Storytelling fejezet arról szól, mitől képes egy történet ennyire erősen hatni ránk, és hogyan áll össze az életünk különálló eseményeiből egy egységes történet.",
+  "A vezérelv végig ugyanaz: a jó információt, a jó időben, a megfelelő mennyiségben add át. A reflexió szakaszában a befogadó a legnyitottabb, ha van üzeneted, ott add át.",
+  "A fejezet végén a Hatlépcsős Story Canvas vár: egy munkafüzet, amivel a saját történetedet vezeted végig hat lépésen."
+ ],
+ "title": "Hatlépcsős Story Canvas: ingyenes munkafüzet a könyv olvasóinak",
+ "description": "A következő történetedet már ne üres lapról kezdd. A Hatlépcsős Story Canvas végigvezet azon, hogyan formálj egy saját élményből érthető, személyes és üzletileg is releváns történetet.",
+ "eyebrow": "Ingyenes munkafüzet a könyv olvasóinak",
+ "h1": "A következő történetedet már ne üres lapról kezdd.",
+ "promise": "A Hatlépcsős Story Canvas végigvezet azon, hogyan formálj egy saját élményből érthető, személyes és üzletileg is releváns történetet. Húsz oldal, hat lépés, egy kész drótváz a végén.",
+ "bullets": [
+  "Válassz ki egyetlen konkrét történetet: egy döntést, egy kudarcot, egy felismerést.",
+  "Vezesd végig a hat szakaszon. A munkafüzet megmutatja, hol hiányzik még információ, akadály vagy fordulópont.",
+  "A végén ott a drótváz, amiből megszülethet a kész történet: videóhoz, előadáshoz, poszthoz."
+ ],
+ "asset_placeholder": "Hatlépcsős Story Canvas",
+ "asset_placeholder_sub": "20 oldalas munkafüzet · PDF",
+ "form_title": "Kérem a Story Canvast",
+ "form_text": "Add meg a keresztneved és az e-mail-címed, és azonnal küldjük a letöltési linket.",
+ "form_embed": "https://nova.mykajabi.com/forms/2149744349/embed.js",
+ "form_cta": "Kérem a Story Canvast",
+ "video": "VQChFnGw1A0",
+ "video_eyebrow": "Két perc, mielőtt letöltöd",
+ "video_title": "Mire való a Story Canvas",
+ "video_text": "Kristóf röviden elmondja, hogyan használd a munkafüzetet, és mit várj tőle.",
+ "steps_eyebrow": "Mi van a munkafüzetben",
+ "steps_title": "Hat lépés, egy drótváz",
+ "steps": [
+  {
+   "title": "A kiindulópont",
+   "text": "Hol kezdődjön a történet, és mennyi kontextusra van szükség ahhoz, hogy a közönséged belépjen a világodba."
+  },
+  {
+   "title": "A feszültség",
+   "text": "Mi tartja fenn a figyelmet, hol az akadály, és hol legyen a fordulópont."
+  },
+  {
+   "title": "A reflexió",
+   "text": "Hogyan érjen véget úgy, hogy a közönséged magával vigyen belőle valamit. Itt a legnyitottabb a befogadó."
+  }
+ ],
+ "body_eyebrow": "Miért készült",
+ "body_title": "Egy jól felépített történetet könnyebb felismerni, mint megírni",
+ "body": [
+  "Amikor ott van előtted egy téma, egy tapasztalat vagy egy videóötlet, hamar megjelennek a kérdések: hol kezdődjön a történet? Mennyi kontextusra van szükség? Mi tartja fenn a figyelmet? Hol legyen a fordulópont? És hogyan érjen véget úgy, hogy a közönséged magával vigyen belőle valamit?",
+  "Ezért készítettem el a Hatlépcsős Story Canvast. A könyv olvasójaként ingyenesen letölthető munkafüzet végigvezet a történeted hat legfontosabb szakaszán. Megmutatja, hol hiányzik még fontos információ, akadály vagy fordulópont, és segít elkészíteni azt a drótvázat, amelyből később megszülethet a kész történet."
+ ],
+ "cta_title": "Töltsd le ingyen",
+ "cta_text": "Keresztnév, e-mail, és a következő történeted már nem üres lapról indul."
+}

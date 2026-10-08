@@ -1,0 +1,34 @@
+{
+ "slug": "werk",
+ "template": "story",
+ "fejezet": "Stratégia",
+ "book_title": "Folytasd a könyvet",
+ "book_thoughts": [
+  "A Stratégia fejezet címe: Válaszd a nehezebb utat. A jövő, amelyet elképzeltél, olyan döntéseket is kérhet tőled, amelyeket a jelenlegi sikereid alapján még semmi nem indokol.",
+  "A stratégia itt nem a tervezés művészete, hanem az önuralomé: újra és újra a nehezebb utat választani, és pontosan tudni, miért érheti meg.",
+  "Nem kell ma az egész utat belátnod. Elég, ha tudod, miért indulsz el, és megteszed azt a következő lépést, amelyet már most tisztán látsz."
+ ],
+ "title": "Könyv nagyforgatás: werk",
+ "description": "Kulisszák mögött a Megkerülhetetlen könyv nagyforgatásán. Werkvideó és fotók a Nova csapatától.",
+ "eyebrow": "Nova storytelling · Stratégia fejezet",
+ "h1": "A könyv nagyforgatása, a kulisszák mögül",
+ "lead": "A könyv borítója, a videobook és a podcast-széria egyetlen nagy forgatási projektből született. Ez az oldal azt mutatja meg, hogyan készült.",
+ "meta": "Werkvideó és fotók · Nova",
+ "hero_photo": null,
+ "hero_soon": "Werkfotó hamarosan",
+ "video": null,
+ "soon_title": "A werkvideó vágás alatt",
+ "soon_text": "A forgatás anyaga most készül. Ha elkészül, itt tudod megnézni.",
+ "thoughts_eyebrow": "Miért mutatjuk meg",
+ "thoughts_title": "A saját stockkönyvtár öt év múlva térül meg igazán",
+ "thoughts": [
+  "A könyvben külön írok arról, miért a saját stockkönyvtár a kedvenc építőelemem: a vezetőről készülő pillanatok, a színfalak mögötti munka öt év múlva hatványozottan térül meg. Ez az oldal ennek az elvnek a gyakorlata.",
+  "A nagyforgatáson egyszerre készült a borítófotó, a videobook anyaga és a Megkerülhetetlen Edition podcast-széria. A werkvideó és a fotók akkor kerülnek ide, amikor a vágás elkészül."
+ ],
+ "gallery_title": "Werkfotók a forgatásról",
+ "gallery": null,
+ "gallery_soon": "Werkfotó hamarosan",
+ "aliases": [
+  "megkerulhetetlen_werk"
+ ]
+}

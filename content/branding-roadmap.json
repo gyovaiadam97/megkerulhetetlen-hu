@@ -1,0 +1,31 @@
+{
+ "slug": "branding-roadmap",
+ "template": "lead",
+ "fejezet": "Stratégia",
+ "book_title": "Folytasd a könyvet",
+ "book_thoughts": [
+  "A Stratégia fejezet címe: Válaszd a nehezebb utat. A jövő, amelyet elképzeltél, olyan döntéseket is kérhet tőled, amelyeket a jelenlegi sikereid alapján még semmi nem indokol.",
+  "A stratégia itt nem a tervezés művészete, hanem az önuralomé: újra és újra a nehezebb utat választani, és pontosan tudni, miért érheti meg.",
+  "Nem kell ma az egész utat belátnod. Elég, ha tudod, miért indulsz el, és megteszed azt a következő lépést, amelyet már most tisztán látsz."
+ ],
+ "title": "Branding Roadmap: a következő lépés a könyv után",
+ "description": "A könyv végén egyetlen kérés van: a saját valóságodban helyezd gyakorlatba, amit megtanultál. A Branding Roadmap ebben segít. Hamarosan.",
+ "eyebrow": "A könyv záró lépése · hamarosan",
+ "h1": "Ne menj vissza a hétköznapjaidba úgy, ahogy előtte működtél.",
+ "promise": "A könyv az első lépése volt annak, hogy ne játssz tovább kicsiben. A Branding Roadmap a következő: egy kapcsolódási pont, ahol segítek beépíteni a gyakorlatba, amit a fejezetekben tárgyaltunk. Az anyag most készül.",
+ "asset_placeholder": "Branding Roadmap",
+ "asset_placeholder_sub": "hamarosan",
+ "form_title": "Szólok, ha kész",
+ "form_text": "Hagyd itt az e-mail-címed, és elsőként értesítünk, amikor a Branding Roadmap elérhető.",
+ "form_embed": null,
+ "form_cta": "Értesítsetek",
+ "body_eyebrow": "A könyv zárszavából",
+ "body_title": "Ne játssz kicsiben",
+ "body": [
+  "Az olvasók 90 százaléka a könyv befejeztével visszatér ugyanabba az élethelyzetbe, ahol elkezdte, csak egy kicsit okosabban. Ugyanúgy megy tovább körülötte a vállalkozása vagy a csapata, ugyanúgy érkeznek az e-mailek, csörög a telefon. Az olvasók 10 százaléka viszont aktívan keresni fogja ennek a tudásnak a helyét a gyakorlati megvalósításban. És a felső 10 százalékba pontosan ugyanezzel a logikával lehet bekerülni.",
+  "Hiába adtam át a tudásom legjavát, ha a könyv végén nem alkalmazod. A valódi változást a gyakorlati implementáció éri el. A könyv végén egyetlen kérésem van hozzád: a saját valóságodban helyezd gyakorlatba, amit megtanultál, vagy kérj benne segítséget."
+ ],
+ "aliases": [
+  "branding_roadmap"
+ ]
+}

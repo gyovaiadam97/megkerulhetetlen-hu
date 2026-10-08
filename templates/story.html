@@ -1,0 +1,38 @@
+{% extends "base.html" %}{% import "_parts.html" as ui %}
+{% block body %}
+<header class="hero"><div class="wrap">
+  {{ ui.wordmark(page.eyebrow or 'Nova storytelling · a könyvből') }}
+  <div class="hero-grid">
+    <div class="hero-text"><h1>{{ page.h1 }}</h1><p class="lead">{{ page.lead }}</p>{% if page.meta %}<p class="meta">{{ page.meta }}</p>{% endif %}</div>
+    <figure class="glass hero-photo">{% if page.hero_photo %}<img src="{{ page.hero_photo }}" alt="{{ page.hero_alt or '' }}" width="800" height="600">{% else %}<div class="gallery-soon" style="aspect-ratio:4/3">{{ page.hero_soon or 'Fotó hamarosan' }}</div>{% endif %}</figure>
+  </div>
+</div></header>
+
+<section class="video"><div class="wrap narrow">
+  {{ ui.video(page.video, page.hero_photo, page.soon_title, page.soon_text) }}
+</div></section>
+
+{% if page.thoughts %}
+<section><div class="wrap narrow">
+  {% if page.thoughts_eyebrow %}<p class="eyebrow">{{ page.thoughts_eyebrow }}</p>{% endif %}
+  <h2 class="section-title">{{ page.thoughts_title }}</h2>
+  {% for t in page.thoughts %}<p>{{ t }}</p>{% endfor %}
+</div></section>
+{% endif %}
+
+{% if page.quotes %}
+<section><div class="wrap"><div class="quotes">{% for q in page.quotes %}<blockquote class="quote"><p>„{{ q }}”</p><cite>{{ page.quote_by or 'Kaltenecker Kristóf' }}</cite></blockquote>{% endfor %}</div></div></section>
+{% endif %}
+
+<section><div class="wrap">
+  <p class="eyebrow">Galéria</p>
+  <h2 class="section-title">{{ page.gallery_title or 'Fotók' }}</h2>
+  {% if page.gallery %}
+  <div class="gallery">{% for g in page.gallery %}<a href="{{ g.full }}" target="_blank" rel="noopener"><img src="{{ g.thumb }}" alt="{{ g.alt or '' }}" loading="lazy" width="800" height="600"></a>{% endfor %}</div>
+  {% else %}
+  <div class="gallery">{% for i in range(6) %}<div class="gallery-soon">{{ page.gallery_soon or 'Fotó hamarosan' }}</div>{% endfor %}</div>
+  {% endif %}
+</div></section>
+
+{{ ui.book_block(page) }}
+{% endblock %}

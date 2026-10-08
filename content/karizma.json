@@ -1,0 +1,57 @@
+{
+ "slug": "karizma",
+ "template": "series",
+ "fejezet": "Storytelling",
+ "book_title": "Folytasd a könyvet",
+ "book_thoughts": [
+  "Ha szeretnél még mélyebben belelátni abba, hogyan gondolkodom a jövőről, ez a beszélgetés erre való. Az epizódban nem csak a Nova víziójáról mesélek, hanem azokról a döntésekről, kételyekről és tapasztalatokról is, amelyek idáig vezettek.",
+  "Kulisszatitok: Imivel egy networking eseményen ismerkedtünk meg. Ő éppen egy panelbeszélgetést hallgatott, én mellé ültem, és a podcastekről kezdtünk beszélgetni. Kiderült, hogy neki saját műsora van, mi pedig addigra nagyjából két-háromezer podcastepizódot gyártottunk le az ügyfeleinknek. Ebből a szinte véletlen beszélgetésből lett a mai stratégiai partnerségünk, és ez az epizód.",
+  "A felvétel még az előző stúdiónkban készült, egy-két technikai malőrrel. De elkészült, és pont ez a lényeg."
+ ],
+ "title": "Karizma Podcast: a személyes márka a bizalomépítés jolly jokere",
+ "description": "Kaltenecker Kristóf a Karizma Podcastben Bolya Imrével: a Nova víziója, a döntések és kételyek, amelyek idáig vezettek, és miért a bizalom lett az új valuta.",
+ "eyebrow": "Podcast-ajánló a könyvből",
+ "h1": "A személyes márkád a bizalomépítés jolly jokere",
+ "lead": "Kaltenecker Kristóf, a Nova Produkciós Iroda alapítója Bolya Imrével beszélget arról, miért a bizalom lett az új olaj, és hogyan épít egy cégvezető olyan személyes márkát, amit évekig bír fenntartani.",
+ "guest": "Kaltenecker Kristóf",
+ "guest_role": "a Nova alapítója",
+ "host": "Bolya Imre, Karizma Podcast",
+ "hero_photo": "/assets/img/karizma-dsc00148.webp",
+ "hero_alt": "Bolya Imre és Kaltenecker Kristóf szelfit készít a Karizma Podcast forgatásán",
+ "hero_caption": "Werkfotó a felvételről: Imi és Kristóf, egy szelfi erejéig.",
+ "video": "1LrShjuliN8",
+ "youtube_url": "https://www.youtube.com/watch?v=1LrShjuliN8",
+ "spotify": "",
+ "excerpt_title": "Miről beszélgettünk több mint egy órán át",
+ "excerpt": [
+  {
+   "text": [
+    "Kristóf története 2018-ban, egy pécsi kollégiumi szobában indul. Egy kétségbeesett anyuka hívta, hogy a másfél éves, SMA-val élő kisfiának, Zentének 700 millió forintos gyógyszerre van szüksége, méghozzá a második születésnapja előtt. A videó megosztása után két héttel meglett a pénz. Innen jön Kristóf alaptétele: a figyelem már régóta valuta, de az igazán szűkös erőforrás ma a bizalom. A cégvezetőnek ezért éri meg személyes márkát építeni. Aki szakértőként és emberként hitelesen szólal meg, azt hívják előadni, vele rövidebb az út az üzletkötésig, és a márkája felnagyítja azt, ami amúgy is benne van, a bőkezűséget éppúgy, mint a gyors haszon vágyát."
+   ],
+   "photo": "/assets/img/karizma-dsc00110.webp",
+   "alt": "Bolya Imre a mikrofon mögött",
+   "caption": "Imi kérdez. A felvétel még az előző Nova-stúdióban készült."
+  },
+  {
+   "text": [
+    "A második felében Kristóf a kezdők gátjait bontja le. Először egyetlen mondatot kell leírni arról, mit gondoljon rólunk a közönség, aztán három tartalompillért választani: a saját élettapasztalatot, azt, amit szívesen csinálunk, és a közönség mai elakadásait. Az imposztorérzésre is van gyakorlata: ha egy tízes skálán hatosnak tartod magad, a közönséged nulla és egy között áll, nekik bőven tudsz újat mondani. Rögzíts egy ötperces videót, aludj rá, majd hallgasd csak a hangot, nézd némán a testbeszédet, és olvasd el a leiratot. Az AI szerinte öt-nyolc hónapon belül felhőréteget von a kezdők és a bejáratott márkák közé. A Nova ügyfelei közben átlagosan három-négy évig maradnak, míg a piacon három-négy hónap a szokás."
+   ],
+   "photo": "/assets/img/karizma-dsc00135.webp",
+   "alt": "Kaltenecker Kristóf a Karizma Podcast felvételén",
+   "caption": "Kristóf a válasz közben."
+  }
+ ],
+ "topics": [
+  "Bizalom mint új valuta",
+  "Három tartalompillér",
+  "Imposztor szindróma kezelése",
+  "AI és a márkaépítés",
+  "Zente története"
+ ],
+ "quotes": [
+  "Az új olaj, amiből egyre kevesebb van, az a figyelem után az a bizalom.",
+  "Az, hogy építünk egy márkát, és annak a középpontjában mi állunk, az egyik legjobb önismereti út, amin végigmehetsz.",
+  "Abban a pillanatban, hogy minden információ a rendelkezésemre áll, és akkor hozom meg a döntést, elkéstem."
+ ],
+ "aliases": []
+}
