@@ -1,6 +1,6 @@
 # megkerulhetetlen.hu — könyv-aloldalak (landingek) TERV
 
-Állapot: **ÉPÍTVE 2026-10-08, előnézet él a GitHub Pages-en; DNS-átállás és hiányzó anyagok várnak.** Forrás-brief: Notion „Landingek” oldal
+Állapot: **ÉLESÍTVE 2026-10-08: DNS átállítva a GitHub Pages-re, CNAME fent; HTTPS-tanúsítvány kiadás alatt. Hiányzó anyagok (epizód-linkek, Booster-űrlap, Roadmap) Kaltitól.** Forrás-brief: Notion „Landingek” oldal
 (https://novastudio.notion.site/Landingek-3f0c32f2c061804db64ceaf712d80e95), nyers export: `anyagok/notion-landingek-export.json`.
 
 ## 1. Mi ez
@@ -124,7 +124,13 @@ A Notion-slugok ékezetesek és aláhúzásosak (`/megkerülhetetlen_Gundel_Taka
 | /branding-roadmap | váz, zárszó-copy | az anyag maga + űrlap |
 | 8 Edition-epizód | hero + kivonat-fotó valódi werkfotóval (Bese, Bolya, Kocsis, Szauer, Tusnádi; forrás `anyagok/drive/werk/`), „miért ez a beszélgetés” a kéziratból, placeholder videó | YouTube/Spotify-link, kivonat; Gundel (üres a Drive-almappa), Gódor és Hormonmentes werkfotója (nincs almappa) → addig Kristóf-fotó |
 
+## Élesítés (2026-10-08)
+- Rackhost zóna 325519 (rohamcsigusz99 fiók): apex A → 185.199.108/109/110/111.153 (TTL 300), www CNAME → gyovaiadam97.github.io. A régi 91.227.139.235 parkoló-rekordok lecserélve.
+- GitHub Pages: cname=megkerulhetetlen.hu, `build.py --cname` → docs/CNAME. Ha a tanúsítvány „approved”, https_enforced=true (háttérben figyelve).
+- Előnézet-URL (github.io) innentől a megkerulhetetlen.hu-ra irányít át.
+
 ## Napló
+- 2026-10-08 (du. 2): kisebb kérések: képaláírások le, 3D könyv-mockup CSS-ben, borító fekete csík levágva, Inter-próba elvetve (marad Unbounded), Bese Nóra képein felső fókusz, időkapszula-galéria le. Majd ÉLESÍTÉS: DNS + CNAME.
 - 2026-10-08 (du.): Ádám kérésére: könyv-blokkban a négyzetes végleges borító (`docs/assets/img/borito-600.jpg`), a fejléc eyebrow-sor levéve minden oldalról, időkapszula-galéria csapatfotókkal (nem egyéni portrék). Vendég-werkfotók a böngészőn át letöltve (drive.usercontent.google.com/download URL-lel megy, a Drive-UI „Letöltés” gombot a szűrő blokkolja).
 - 2026-10-08 (később): a Nova marketing Drive-mappa (1j9X5uU1…) a short-ütemező service-accountjával elérhető → Luminance-album (223 kép), csapatportrék, HQ-stúdiófotók, Kristóf-fotók, Podcast Booster e-book letöltve (`anyagok/drive/`, eszközök: `anyagok/drive_ls.py`, `anyagok/drive_get.py`, kulcs Bitwarden `SHORTS_DRIVE_SA_JSON`). Fotók beépítve, push kész.
 - 2026-10-08: build-rendszer + 3 sablon + 17 oldal megépítve a kézirat szövegére építve; repo + Pages él (előnézet github.io alatt). A Drive werkfotó-mappa letöltését a jogosultsági szűrő blokkolta → Ádám tölti le vagy megosztja. Borító: ideiglenes placeholder (`docs/assets/img/borito.jpg`), a végleges fájl kell.
