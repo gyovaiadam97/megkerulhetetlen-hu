@@ -117,14 +117,15 @@ A Notion-slugok ékezetesek és aláhúzásosak (`/megkerülhetetlen_Gundel_Taka
 | /storycanvas | teljes (copy, Kajabi-űrlap 2149744349, VSL) | munkafüzet borítóképe (most teal placeholder) |
 | /stressz-teszt | teljes (copy, Kajabi-űrlap 2149712715) | a 15 perces bevezető videó |
 | /kamera-elotti-magabiztossag | teljes (90 perces workshop-videó, copy) | – |
-| /idokapszula | videó + copy a kéziratból | fotók a csapatról |
-| /luminance | videó + pohárköszöntő-gondolatok | fotóalbum |
-| /werk | váz, placeholder | werkvideó + fotók |
-| /podcast-booster | copy a Kajabi-referencia és a kézirat alapján | Kajabi-űrlap ID, e-book kép |
+| /idokapszula | videó + copy + 12 csapatportré, hero a Luminance csapatfotó | – |
+| /luminance | videó + pohárköszöntő-gondolatok + 12 képes galéria a teljes albumból | – |
+| /werk | váz + stúdiófotó-galéria (HQ) | werkvideó, a nagyforgatás saját fotói |
+| /podcast-booster | copy + az e-book valódi borítója (Drive, Lead magnetek) | Kajabi-űrlap ID |
 | /branding-roadmap | váz, zárszó-copy | az anyag maga + űrlap |
-| 8 Edition-epizód | hero + „miért ez a beszélgetés” a kéziratból, placeholder videó | YouTube/Spotify-link, kivonat, werkfotók (Drive-mappa: Bese, Bolya, Gundel, Kocsis, Szauer, Tusnádi; Gódor és Hormonmentes nincs a mappában) |
+| 8 Edition-epizód | hero (Kristóf-fotó ideiglenesen) + „miért ez a beszélgetés” a kéziratból, placeholder videó | YouTube/Spotify-link, kivonat, vendég-werkfotók (a „Nova Podcast werkfotók” mappa NEM látszik a service-accountnak, megosztás kell: shorts-torlo@ceges-gmail-claudenak.iam.gserviceaccount.com; Gódor és Hormonmentes almappa ott sincs) |
 
 ## Napló
+- 2026-10-08 (később): a Nova marketing Drive-mappa (1j9X5uU1…) a short-ütemező service-accountjával elérhető → Luminance-album (223 kép), csapatportrék, HQ-stúdiófotók, Kristóf-fotók, Podcast Booster e-book letöltve (`anyagok/drive/`, eszközök: `anyagok/drive_ls.py`, `anyagok/drive_get.py`, kulcs Bitwarden `SHORTS_DRIVE_SA_JSON`). Fotók beépítve, push kész.
 - 2026-10-08: build-rendszer + 3 sablon + 17 oldal megépítve a kézirat szövegére építve; repo + Pages él (előnézet github.io alatt). A Drive werkfotó-mappa letöltését a jogosultsági szűrő blokkolta → Ádám tölti le vagy megosztja. Borító: ideiglenes placeholder (`docs/assets/img/borito.jpg`), a végleges fájl kell.
 - 2026-10-08: végleges borító megérkezett (világos, teal-kék cím) — ütközik a Notion „sötét, neonkék” kérésével, döntés kell.
 - 2026-10-08: Notion-brief kinyerve API-n át (17 sor + aloldal-tartalmak), referencia-anyagok megnézve, terv megírva. Jóváhagyásra vár.
