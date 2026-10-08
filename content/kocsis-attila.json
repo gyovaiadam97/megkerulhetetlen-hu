@@ -15,8 +15,8 @@
  "guest": "Kocsis Attila",
  "guest_role": "a Forbes korábbi vezetője",
  "host": "Kaltenecker Kristóf",
- "hero_photo": "/assets/img/k-dsc02636.webp",
- "hero_caption": "Az epizód werkfotói a vágással együtt érkeznek.",
+ "hero_photo": "/assets/img/werk-kocsis-attila-dsc09567.webp",
+ "hero_caption": "Werkfotó a felvételről.",
  "video": null,
  "youtube_url": "",
  "spotify": "",
@@ -29,13 +29,14 @@
     "A fejezet azt nézi meg, hogyan építhetsz olyan működést a személyes márkád köré, amely nem követel minden egyes alkalommal emberfeletti erőfeszítést. A gépezetet működtető gépezetet.",
     "Mert a márkaépítés nem egy egyszeri projekt, amin néhány hónapig dolgozol. A márkaépítés egy végtelen játék. Attilával arról beszélgetünk, hogyan néz ez ki egy nagy médiamárka és egy vezető személyes márkája felől nézve. A kész adás kivonata ide kerül, amint az epizód elkészül."
    ],
-   "photo": null,
-   "caption": null
+   "photo": "/assets/img/werk-kocsis-attila-dsc09483.webp",
+   "caption": "Kocsis Attila a felvétel közben.",
+   "alt": "Kocsis Attila a Nova stúdiójában"
   }
  ],
  "aliases": [
   "megkerülhetetlen_Kocsis_Attila",
   "megkerulhetetlen_Kocsis_Attila"
  ],
- "hero_alt": "Kaltenecker Kristóf"
+ "hero_alt": "Kocsis Attila és Kaltenecker Kristóf a Nova Podcast felvételén"
 }
