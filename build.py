@@ -79,7 +79,7 @@ table{{width:100%;border-collapse:collapse;font-size:14px}}
 td,th{{padding:9px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}}
 th{{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}}
 .mono{{font-size:13px}}
-@media print{{.no-print{{display:none}} body{{background:#fff}} .qr-card{{box-shadow:none}} a{{color:#000;text-decoration:none}}}}
+@media print{{.no-print,.qr-dl{{display:none}} body{{background:#fff}} .qr-card{{box-shadow:none}} a{{color:#000;text-decoration:none}}}}
 </style></head><body>
 <main class="wrap" style="padding:40px 0 60px">
 <p class="author">Kaltenecker Kristóf</p>
