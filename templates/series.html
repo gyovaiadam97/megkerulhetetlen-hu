@@ -28,7 +28,7 @@
   {% for row in page.excerpt %}
   <div class="excerpt-row{% if loop.index is even %} flip{% endif %}">
     <div>{% for para in row.text %}<p>{{ para }}</p>{% endfor %}</div>
-    <figure class="excerpt-photo">{% if row.photo %}<img src="{{ row.photo }}" alt="{{ row.alt or '' }}" loading="lazy" width="800" height="600"{% if row.pos %} style="object-position:{{ row.pos }}"{% endif %}>{% else %}<div class="gallery-soon" style="aspect-ratio:4/3">Werkfotó hamarosan</div>{% endif %}{% if row.caption %}<figcaption>{{ row.caption }}</figcaption>{% endif %}</figure>
+    <figure class="excerpt-photo">{% if row.photo %}<img src="{{ row.photo }}" alt="{{ row.alt or '' }}" loading="lazy" width="800" height="600"{% if row.get("pos") %} style="object-position:{{ row.get("pos") }}"{% endif %}>{% else %}<div class="gallery-soon" style="aspect-ratio:4/3">Werkfotó hamarosan</div>{% endif %}{% if row.caption %}<figcaption>{{ row.caption }}</figcaption>{% endif %}</figure>
   </div>
   {% endfor %}
   {% if page.topics %}<ul class="chips">{% for t in page.topics %}<li>{{ t }}</li>{% endfor %}</ul>{% endif %}
