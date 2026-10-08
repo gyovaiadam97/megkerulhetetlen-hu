@@ -1,6 +1,6 @@
 # megkerulhetetlen.hu — könyv-aloldalak (landingek) TERV
 
-Állapot: **JÓVÁHAGYVA 2026-10-08, kivitelezés alatt.** Forrás-brief: Notion „Landingek” oldal
+Állapot: **ÉPÍTVE 2026-10-08, előnézet él a GitHub Pages-en; DNS-átállás és hiányzó anyagok várnak.** Forrás-brief: Notion „Landingek” oldal
 (https://novastudio.notion.site/Landingek-3f0c32f2c061804db64ceaf712d80e95), nyers export: `anyagok/notion-landingek-export.json`.
 
 ## 1. Mi ez
@@ -102,6 +102,29 @@ A Notion-slugok ékezetesek és aláhúzásosak (`/megkerülhetetlen_Gundel_Taka
 - Borító legnagyobb felbontása: Drive-mappa 1tTSz5ZT0NEw-tabuODmdgP0Bv7iNwSzH.
 - Stressz teszt űrlap-ID: Ádám később adja.
 
+## Hogyan működik (új sessionnek)
+- `content/<slug>.json` = egy oldal tartalma (sablon: `series` | `story` | `lead`). `_`-vel kezdődő fájlok segédanyagok.
+- `templates/` = Jinja2-sablonok (base, _parts makrók, series, story, lead). `docs/assets/css/style.css` = a teljes dizájn.
+- `python3 build.py` → `docs/<slug>/index.html` + alias-átirányítások + `docs/qr/<slug>.svg|png`. **Élesítéskor `python3 build.py --cname`** (addig CNAME nélkül, hogy a github.io előnézet működjön).
+- Deploy: `git add -A && git commit && git push` (repo gyovaiadam97/megkerulhetetlen-hu, Pages a main `/docs`-ból).
+- Előnézet: https://gyovaiadam97.github.io/megkerulhetetlen-hu/ (ideiglenes lista) · lokálisan `cd docs && python3 -m http.server 8795`.
+- Forrásanyagok (gitignore alatt): `anyagok/kezirat/*.txt` (a 3 fejezet kézirata), `anyagok/kezirat-qr-kontextus.txt` (a QR-helyek szövegkörnyezete), `anyagok/stills/` (Karizma werkfotók), `anyagok/poharkoszonto-atirat.txt`, `anyagok/karizma-leirat.txt`.
+
+## Állapot oldalanként (2026-10-08)
+| Oldal | Kész | Hiányzik |
+|---|---|---|
+| /karizma | teljes (videó, 8 werkfotó, kivonat, idézetek) | Spotify-link (Karizma Podcast) |
+| /storycanvas | teljes (copy, Kajabi-űrlap 2149744349, VSL) | munkafüzet borítóképe (most teal placeholder) |
+| /stressz-teszt | teljes (copy, Kajabi-űrlap 2149712715) | a 15 perces bevezető videó |
+| /kamera-elotti-magabiztossag | teljes (90 perces workshop-videó, copy) | – |
+| /idokapszula | videó + copy a kéziratból | fotók a csapatról |
+| /luminance | videó + pohárköszöntő-gondolatok | fotóalbum |
+| /werk | váz, placeholder | werkvideó + fotók |
+| /podcast-booster | copy a Kajabi-referencia és a kézirat alapján | Kajabi-űrlap ID, e-book kép |
+| /branding-roadmap | váz, zárszó-copy | az anyag maga + űrlap |
+| 8 Edition-epizód | hero + „miért ez a beszélgetés” a kéziratból, placeholder videó | YouTube/Spotify-link, kivonat, werkfotók (Drive-mappa: Bese, Bolya, Gundel, Kocsis, Szauer, Tusnádi; Gódor és Hormonmentes nincs a mappában) |
+
 ## Napló
+- 2026-10-08: build-rendszer + 3 sablon + 17 oldal megépítve a kézirat szövegére építve; repo + Pages él (előnézet github.io alatt). A Drive werkfotó-mappa letöltését a jogosultsági szűrő blokkolta → Ádám tölti le vagy megosztja. Borító: ideiglenes placeholder (`docs/assets/img/borito.jpg`), a végleges fájl kell.
 - 2026-10-08: végleges borító megérkezett (világos, teal-kék cím) — ütközik a Notion „sötét, neonkék” kérésével, döntés kell.
 - 2026-10-08: Notion-brief kinyerve API-n át (17 sor + aloldal-tartalmak), referencia-anyagok megnézve, terv megírva. Jóváhagyásra vár.
