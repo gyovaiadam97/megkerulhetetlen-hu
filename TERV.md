@@ -122,9 +122,10 @@ A Notion-slugok ékezetesek és aláhúzásosak (`/megkerülhetetlen_Gundel_Taka
 | /werk | váz + stúdiófotó-galéria (HQ) | werkvideó, a nagyforgatás saját fotói |
 | /podcast-booster | copy + az e-book valódi borítója (Drive, Lead magnetek) | Kajabi-űrlap ID |
 | /branding-roadmap | váz, zárszó-copy | az anyag maga + űrlap |
-| 8 Edition-epizód | hero (Kristóf-fotó ideiglenesen) + „miért ez a beszélgetés” a kéziratból, placeholder videó | YouTube/Spotify-link, kivonat, vendég-werkfotók (a „Nova Podcast werkfotók” mappa NEM látszik a service-accountnak, megosztás kell: shorts-torlo@ceges-gmail-claudenak.iam.gserviceaccount.com; Gódor és Hormonmentes almappa ott sincs) |
+| 8 Edition-epizód | hero + kivonat-fotó valódi werkfotóval (Bese, Bolya, Kocsis, Szauer, Tusnádi; forrás `anyagok/drive/werk/`), „miért ez a beszélgetés” a kéziratból, placeholder videó | YouTube/Spotify-link, kivonat; Gundel (üres a Drive-almappa), Gódor és Hormonmentes werkfotója (nincs almappa) → addig Kristóf-fotó |
 
 ## Napló
+- 2026-10-08 (du.): Ádám kérésére: könyv-blokkban a négyzetes végleges borító (`docs/assets/img/borito-600.jpg`), a fejléc eyebrow-sor levéve minden oldalról, időkapszula-galéria csapatfotókkal (nem egyéni portrék). Vendég-werkfotók a böngészőn át letöltve (drive.usercontent.google.com/download URL-lel megy, a Drive-UI „Letöltés” gombot a szűrő blokkolja).
 - 2026-10-08 (később): a Nova marketing Drive-mappa (1j9X5uU1…) a short-ütemező service-accountjával elérhető → Luminance-album (223 kép), csapatportrék, HQ-stúdiófotók, Kristóf-fotók, Podcast Booster e-book letöltve (`anyagok/drive/`, eszközök: `anyagok/drive_ls.py`, `anyagok/drive_get.py`, kulcs Bitwarden `SHORTS_DRIVE_SA_JSON`). Fotók beépítve, push kész.
 - 2026-10-08: build-rendszer + 3 sablon + 17 oldal megépítve a kézirat szövegére építve; repo + Pages él (előnézet github.io alatt). A Drive werkfotó-mappa letöltését a jogosultsági szűrő blokkolta → Ádám tölti le vagy megosztja. Borító: ideiglenes placeholder (`docs/assets/img/borito.jpg`), a végleges fájl kell.
 - 2026-10-08: végleges borító megérkezett (világos, teal-kék cím) — ütközik a Notion „sötét, neonkék” kérésével, döntés kell.
