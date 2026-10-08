@@ -132,6 +132,9 @@ A 17 aloldal címe (`megkerulhetetlen.hu/<slug>/`) innentől **nem változtathat
 - GitHub Pages: cname=megkerulhetetlen.hu, `build.py --cname` → docs/CNAME. Tanúsítvány 10:43-kor kiadva (a domain egyszeri le- és visszavétele indította be), https_enforced=true, http→https és www→apex átirányítás ellenőrizve.
 - Előnézet-URL (github.io) innentől a megkerulhetetlen.hu-ra irányít át.
 
+## Tárhely-döntés (2026-10-08 11:05)
+Marad Ádám GitHub-fiókján (GitHub Pages). Megfontolt alternatívák: Rackhost tárhely (a Midi csomag 09-29 óta lejárt, befizetésre vár, 84%-ig tele, ma semmit nem szolgál ki) és a Hostinger VPS (Ádám nem kérte). Kalti fiókjába átadás nem kell. Ha valaha költözik: statikus fájlok, a QR-ok a domainre mutatnak.
+
 ## Napló
 - 2026-10-08 10:55: a nyomdai összesítő (/nyomda/ + PDF + ZIP) kiment a kiadónak → slugok véglegesek, build-őr beépítve.
 - 2026-10-08 (du. 2): kisebb kérések: képaláírások le, 3D könyv-mockup CSS-ben, borító fekete csík levágva, Inter-próba elvetve (marad Unbounded), Bese Nóra képein felső fókusz, időkapszula-galéria le. Majd ÉLESÍTÉS: DNS + CNAME.
