@@ -1,6 +1,6 @@
 # megkerulhetetlen.hu — könyv-aloldalak (landingek) TERV
 
-Állapot: **ÉLESÍTVE 2026-10-08: DNS átállítva a GitHub Pages-re, CNAME fent; HTTPS-tanúsítvány kiadás alatt. Hiányzó anyagok (epizód-linkek, Booster-űrlap, Roadmap) Kaltitól.** Forrás-brief: Notion „Landingek” oldal
+Állapot: **ÉLESÍTVE 2026-10-08: DNS átállítva a GitHub Pages-re, CNAME fent; HTTPS él, kényszerítve (cert 2027-01-06-ig, GitHub auto-megújítja). Hiányzó anyagok (epizód-linkek, Booster-űrlap, Roadmap) Kaltitól.** Forrás-brief: Notion „Landingek” oldal
 (https://novastudio.notion.site/Landingek-3f0c32f2c061804db64ceaf712d80e95), nyers export: `anyagok/notion-landingek-export.json`.
 
 ## 1. Mi ez
@@ -126,7 +126,7 @@ A Notion-slugok ékezetesek és aláhúzásosak (`/megkerülhetetlen_Gundel_Taka
 
 ## Élesítés (2026-10-08)
 - Rackhost zóna 325519 (rohamcsigusz99 fiók): apex A → 185.199.108/109/110/111.153 (TTL 300), www CNAME → gyovaiadam97.github.io. A régi 91.227.139.235 parkoló-rekordok lecserélve.
-- GitHub Pages: cname=megkerulhetetlen.hu, `build.py --cname` → docs/CNAME. Ha a tanúsítvány „approved”, https_enforced=true (háttérben figyelve).
+- GitHub Pages: cname=megkerulhetetlen.hu, `build.py --cname` → docs/CNAME. Tanúsítvány 10:43-kor kiadva (a domain egyszeri le- és visszavétele indította be), https_enforced=true, http→https és www→apex átirányítás ellenőrizve.
 - Előnézet-URL (github.io) innentől a megkerulhetetlen.hu-ra irányít át.
 
 ## Napló
