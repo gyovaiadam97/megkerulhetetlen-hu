@@ -15,7 +15,7 @@
  "guest": "Gundel Takács Gábor",
  "guest_role": "műsorvezető",
  "host": "Kaltenecker Kristóf",
- "hero_photo": "/assets/img/k-65a4662.webp",
+ "hero_photo": "/assets/img/werk-gundel-takacs-gabor-dsc08410.webp",
  "hero_caption": null,
  "video": null,
  "youtube_url": "",
@@ -29,14 +29,17 @@
     "Gábor a kvízműsoraiból hozza az első példát: a nézők az utcán nem azt emlegetik, mik voltak a kérdések, hanem azt, hogy mi történt az emberekkel. Szerinte a történetmesélés gyökere az igazi kíváncsiság, mert csak az szül igazi kérdéseket. A sportkommentátor dolgát is így látja. A képernyőre minden adat ki van írva, egyedül a történet nincs. Egy gyaloglóverseny unalmasnak látszik, amíg valaki el nem mondja, ki miért megy elöl, és ki pihen a szélárnyékban.",
     "A néző türelméről azt mondja, a választás gyors és türelmetlen, de ha megtaláltad a tartalmat, öt évadot is végignézel. A kezdő mesélőnek három dolgot tanácsol: vizsgáld meg magadat, vizsgáld meg a történetedet, és teremtsd meg a feltételeket ahhoz, hogy jól el tudd mondani. Amíg nem hiszel abban, amit át akarsz adni, a közönség megérzi. A vezetőnek pedig muszáj szerepelnie, mert a cége történetének folytatását is neki kell elmesélnie."
    ],
-   "photo": null,
-   "caption": null
+   "photo": "/assets/img/werk-gundel-takacs-gabor-dsc08393.webp",
+   "caption": null,
+   "alt": "Gundel Takács Gábor a Nova stúdiójában",
+   "pos": "50% 35%"
   }
  ],
  "aliases": [
   "megkerülhetetlen_Gundel_Takacs_Gabor",
   "megkerulhetetlen_Gundel_Takacs_Gabor"
  ],
- "hero_alt": "Kaltenecker Kristóf",
- "host_role": "a Nova alapítója"
+ "hero_alt": "Gundel Takács Gábor és Kaltenecker Kristóf a Nova Podcast felvételén",
+ "host_role": "a Nova alapítója",
+ "hero_pos": "50% 29%"
 }
