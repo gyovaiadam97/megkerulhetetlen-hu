@@ -49,5 +49,7 @@
  "asset_photo": "/assets/img/booster-cover.webp",
  "asset_alt": "Podcast Booster e-book borítója",
  "sub": "Ingyenes e-book, videós tananyag és adástematika-sablon egy csomagban.",
- "list_title": "A Podcast Booster segít végiggondolni, hogyan vezeted a hallgatót az első mondattól a konklúzióig. Töltsd meg a sablont a saját témáddal, kérdéseiddel és történeteiddel."
+ "list_title": "A Podcast Booster segít végiggondolni, hogyan vezeted a hallgatót az első mondattól a konklúzióig. Töltsd meg a sablont a saját témáddal, kérdéseiddel és történeteiddel.",
+ "asset_3d": true,
+ "asset_spine": "Podcast Booster"
 }

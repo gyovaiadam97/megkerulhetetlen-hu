@@ -14,7 +14,15 @@
   {{ ui.video(page.video, None, page.soon_title, page.soon_text, page.video_poster) }}
   {% if page.video_text %}<p class="muted center video-note{% if page.video_text_desktop_only %} hide-mobile{% endif %}">{{ page.video_text }}</p>{% endif %}
   {% elif page.asset_photo %}
+  {% if page.asset_3d %}
+  {# 3D-szerű termék-mockup (álló e-book), ugyanaz a CSS-könyv, mint a könyv-blokkban #}
+  <div class="book3d book3d-ebook" role="img" aria-label="{{ page.asset_alt or '' }}"><div class="book3d-inner">
+    <div class="b-back"></div><div class="b-pages"></div><div class="b-spine"><span>{{ page.asset_spine or '' }}</span></div>
+    <div class="b-front"><img src="{{ page.asset_photo }}" alt="" width="200" height="356"></div>
+  </div></div>
+  {% else %}
   <figure class="glass lm-asset"><img src="{{ page.asset_photo }}" alt="{{ page.asset_alt or '' }}"></figure>
+  {% endif %}
   {% endif %}
   {% if page.video and page.yt_button %}{{ ui.yt_app_button(page.video) }}{% endif %}
   {% if has_form %}<div class="btns btns-center"><a class="btn btn-primary" href="#urlap">{{ page.form_cta or 'Kérem az anyagot' }}</a></div>{% endif %}
