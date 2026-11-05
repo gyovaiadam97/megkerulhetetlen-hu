@@ -33,6 +33,7 @@ p{margin:0 0 1em}
 .lead{font-size:clamp(17px,2.2vw,20px);color:var(--ink-2);margin:0 0 14px}
 .meta{font-size:14px;color:var(--muted);margin:0}
 .meta b{color:var(--ink);font-weight:600}
+.meta span{display:block}
 .glass{background:var(--glass);border:1px solid var(--glass-line);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:var(--r);box-shadow:var(--shadow)}
 .hero-photo{margin:0;padding:10px}
 .hero-photo img{border-radius:calc(var(--r) - 8px);aspect-ratio:4/3;object-fit:cover;width:100%}
@@ -46,9 +47,11 @@ section{padding:34px 0}
 /* VIDEO */
 .video{padding-top:6px}
 .yt{position:relative;aspect-ratio:16/9;border-radius:var(--r);overflow:hidden;background:#0d1a22;box-shadow:var(--shadow);cursor:pointer}
-.yt img{width:100%;height:100%;object-fit:cover;opacity:.92}
+.yt img{position:absolute;inset:0;z-index:2;width:100%;height:100%;object-fit:cover;opacity:.92}
 .yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.yt .play{position:absolute;inset:0;display:grid;place-items:center}
+.yt .play{position:absolute;inset:0;z-index:2;display:grid;place-items:center}
+.yt.on{cursor:default}
+.yt.on>img,.yt.on .play{display:none}
 .yt .play span{width:76px;height:76px;border-radius:50%;background:rgba(255,255,255,.92);display:grid;place-items:center;box-shadow:0 8px 30px rgba(0,0,0,.35);transition:transform .2s}
 .yt:hover .play span{transform:scale(1.06)}
 .yt .play svg{width:30px;height:30px;margin-left:4px;fill:var(--teal)}
@@ -57,6 +60,8 @@ section{padding:34px 0}
 .yt-soon div{position:relative}
 .yt-soon strong{display:block;font-family:var(--font-h);font-size:clamp(16px,2.6vw,22px);color:var(--teal);margin-bottom:6px}
 .yt-soon p{margin:0;color:var(--ink-2);font-size:15px}
+/* telefonon a hosszabb „hamarosan” szöveg ne lógjon ki a 16:9-es dobozból */
+@media(max-width:600px){.yt-soon{aspect-ratio:auto;min-height:56vw}}
 
 /* BUTTONS */
 .btns{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 0}
@@ -75,7 +80,12 @@ section{padding:34px 0}
 
 /* EXCERPT with alternating photos */
 .excerpt-row{display:grid;gap:22px;align-items:center;margin-bottom:34px}
-@media(min-width:760px){.excerpt-row{grid-template-columns:1fr 1fr;gap:40px}.excerpt-row.flip .excerpt-photo{order:2}}
+/* asztalon: alapból fotó balra, szöveg jobbra; .flip = szöveg balra, fotó jobbra */
+@media(min-width:760px){.excerpt-row{grid-template-columns:1fr 1fr;gap:40px}.excerpt-row:not(.flip) .side-photo{order:-1}}
+.excerpt-text .section-title{font-size:clamp(20px,2.6vw,26px);line-height:1.25;text-wrap:balance}
+/* telefonon a fotó a két bekezdés közé kerül (photo-mid) */
+.mid-photo{display:none;margin:6px 0 20px}
+@media(max-width:759px){.photo-mid .mid-photo{display:block}.photo-mid .side-photo{display:none}}
 .excerpt-row p{font-size:17px}
 .excerpt-photo{margin:0}
 .excerpt-photo img{border-radius:var(--r);aspect-ratio:4/3;object-fit:cover;width:100%;box-shadow:var(--shadow)}
@@ -84,7 +94,7 @@ section{padding:34px 0}
 /* QUOTES */
 .quotes{display:grid;gap:14px}
 @media(min-width:760px){.quotes{grid-template-columns:repeat(3,1fr)}}
-.quote{padding:22px;border-radius:var(--r);background:var(--teal-soft);border:1px solid rgba(47,110,142,.12)}
+.quote{margin:0;padding:22px;border-radius:var(--r);background:var(--teal-soft);border:1px solid rgba(47,110,142,.12)}
 .quote p{font-family:var(--font-h);font-weight:500;font-size:15px;line-height:1.45;margin:0;color:var(--ink)}
 .quote cite{display:block;font-style:normal;font-size:12px;color:var(--teal);margin-top:12px;letter-spacing:.08em;text-transform:uppercase}
 
@@ -104,13 +114,30 @@ section{padding:34px 0}
 /* GALLERY */
 .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
 @media(min-width:700px){.gallery{grid-template-columns:repeat(3,1fr);gap:14px}}
-.gallery a{display:block;border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
-.gallery img{aspect-ratio:4/3;object-fit:cover;width:100%;transition:transform .3s}
-.gallery a:hover img{transform:scale(1.03)}
+.gallery figure{margin:0;border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+.gallery img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.swipe-hint{display:none}
+/* telefonon lapozható sor: egy nagy kép látszik, a következő széle belóg */
+@media(max-width:699px){
+  .gallery-swipe{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;margin-inline:calc(-1*var(--gutter));padding:4px var(--gutter) 14px;scroll-padding-inline:var(--gutter);scrollbar-width:none}
+  .gallery-swipe::-webkit-scrollbar{display:none}
+  .gallery-swipe figure{flex:0 0 86%;scroll-snap-align:center}
+  .swipe-hint{display:block;font-size:12px;color:var(--muted);text-align:center;margin:2px 0 0}
+}
 .gallery-soon{aspect-ratio:4/3;border-radius:14px;border:1px dashed rgba(47,110,142,.45);display:grid;place-items:center;color:var(--teal);font-size:13px;text-align:center;padding:10px;background:#fff}
 
 /* LEAD MAGNET (marketing) */
-.lm-hero .hero-grid{align-items:start}
+.lm-hero{padding-bottom:22px}
+.lm-hero h1{font-size:clamp(24px,3.1vw,34px);margin-top:26px;text-wrap:balance}
+.lm-sub{font-size:clamp(17px,2.2vw,21px);color:var(--ink-2);margin:0 auto;max-width:720px;text-wrap:balance}
+.lm-video{padding-top:8px}
+.video-note{margin:14px 0 0}
+.lm-list-title{font-size:clamp(18px,2.3vw,22px);line-height:1.4;font-weight:600;margin-bottom:26px;text-wrap:balance}
+.lm-list{max-width:620px;margin-inline:auto}
+.lm-form{scroll-margin-top:12px}
+.lm-form .form-card{max-width:560px;margin-inline:auto}
+.btns-center{justify-content:center}
+@media(max-width:759px){.hide-mobile{display:none}}
 .lm-promise{font-size:clamp(17px,2.2vw,20px);color:var(--ink-2)}
 .lm-list{list-style:none;padding:0;margin:0 0 18px;display:grid;gap:12px}
 .lm-list li{display:flex;gap:12px;align-items:flex-start}
@@ -127,7 +154,7 @@ section{padding:34px 0}
 .form-slot button:hover,.form-slot input[type=submit]:hover{background:#28607c}
 .form-slot .kajabi-form__form-field--checkbox label, .form-slot .checkbox-field label{font-size:13px;font-weight:400}
 .form-slot .form-placeholder{padding:18px;border:1px dashed rgba(47,110,142,.45);border-radius:12px;color:var(--teal);font-size:14px;text-align:center;background:var(--teal-soft)}
-.lm-asset{margin:0;padding:10px}
+.lm-asset{margin:0 auto;padding:10px;max-width:420px}
 .lm-asset img{border-radius:calc(var(--r) - 8px);width:100%;object-fit:cover}
 .lm-asset .lm-asset-ph{aspect-ratio:3/4;max-height:380px;border-radius:calc(var(--r) - 8px);background:linear-gradient(160deg,var(--teal),#1d4a63);display:grid;place-items:center;text-align:center;color:#fff;padding:24px;font-family:var(--font-h);font-weight:600;font-size:clamp(16px,2.4vw,22px);line-height:1.25}
 .lm-asset .lm-asset-ph small{display:block;font-family:var(--font-b);font-weight:400;font-size:13px;opacity:.85;margin-top:12px;letter-spacing:.05em}
@@ -145,6 +172,16 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-con
 footer img{height:26px;width:auto}
 footer a{color:var(--muted)}
 .footer-links{display:flex;gap:16px;flex-wrap:wrap}
+@media(max-width:700px){footer .wrap{flex-direction:column;justify-content:center;text-align:center;gap:14px}.footer-links{justify-content:center}}
+/* hero két fotóval egymás mellett (vendég + beszélgetőtárs) */
+.hero-duo{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.hero-duo img{aspect-ratio:3/4}
+/* középre zárt könyv-blokk (oldalankénti kapcsoló: book_center) */
+.book-center .book-grid{grid-template-columns:1fr;justify-items:center;text-align:center}
+.book-center .book-grid>div:last-child{max-width:720px}
+/* ideiglenesen levett oldal */
+.off{min-height:60vh;display:grid;align-content:center;text-align:center;padding:60px 0}
+.off h1{margin-top:28px}
 
 /* misc */
 .pill{display:inline-block;font-size:12px;padding:5px 10px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-weight:600;letter-spacing:.04em}
@@ -154,7 +191,7 @@ footer a{color:var(--muted)}
 /* Kajabi embed: a saját címsorát elrejtjük (a kártyának van), gomb + mezők a mi stílusunkra */
 .form-slot #kajabi-form .kajabi-form__title,.form-slot #kajabi-form .kajabi-form__subtitle{display:none!important}
 .form-slot #kajabi-form{margin:0!important;padding:0!important;background:transparent!important;box-shadow:none!important;border:0!important;max-width:none!important}
-.form-slot #kajabi-form .kajabi-form__content{padding:0!important}
+.form-slot #kajabi-form .kajabi-form__content{padding:0!important;max-width:none!important;width:100%!important}
 .form-slot #kajabi-form .kajabi-form__form-item{margin:0 0 10px!important}
 .form-slot #kajabi-form input[type=text],.form-slot #kajabi-form input[type=email]{width:100%!important;padding:13px 14px!important;border:1.5px solid rgba(20,24,28,.14)!important;border-radius:12px!important;font:inherit!important;font-size:16px!important;background:#fff!important;color:#14181c!important;box-shadow:none!important}
 .form-slot #kajabi-form input:focus{border-color:#4a96b8!important;box-shadow:0 0 0 3px rgba(74,150,184,.2)!important;outline:none!important}

@@ -3,14 +3,31 @@
 <div class="wordmark">Megkerül-<br>hetetlen</div>
 {%- endmacro %}
 
-{% macro video(v, poster, soon_title, soon_text) -%}
+{% macro video(v, poster, soon_title, soon_text, thumb=None) -%}
 {% if v %}
 <div class="yt" data-id="{{ v }}" role="button" tabindex="0" aria-label="Videó lejátszása">
-  <img src="https://i.ytimg.com/vi/{{ v }}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+  <img src="{{ thumb or ('https://i.ytimg.com/vi/' ~ v ~ '/hqdefault.jpg') }}" alt="" loading="lazy" width="480" height="360">
   <div class="play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
 </div>
 {% else %}
 <div class="yt-soon">{% if poster %}<img src="{{ poster }}" alt="">{% endif %}<div><strong>{{ soon_title or 'A videó hamarosan érkezik' }}</strong><p>{{ soon_text or 'Az epizód vágás alatt van. Ha elkészül, itt tudod megnézni.' }}</p></div></div>
+{% endif %}
+{%- endmacro %}
+
+{% macro yt_icon() -%}<svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>{%- endmacro %}
+
+{# „Megnézem a YouTube-on” gomb: telefonon az appot nyitja (lásd base.html) #}
+{% macro yt_app_button(v) -%}
+<div class="btns btns-center"><a class="btn btn-yt" data-yt-app="{{ v }}" href="https://www.youtube.com/watch?v={{ v }}" target="_blank" rel="noopener">{{ yt_icon() }} Megnézem a YouTube-on</a></div>
+{%- endmacro %}
+
+{# nem kattintható galéria: asztalon rács, telefonon lapozható sor #}
+{% macro gallery(items, soon) -%}
+{% if items %}
+<div class="gallery gallery-swipe">{% for g in items %}<figure><img src="{{ g.thumb }}" alt="{{ g.get("alt") or '' }}" loading="lazy" width="800" height="600"{% if g.get("pos") %} style="object-position:{{ g.get("pos") }}"{% endif %}></figure>{% endfor %}</div>
+<p class="swipe-hint" aria-hidden="true">Húzd oldalra a többi képért</p>
+{% else %}
+<div class="gallery">{% for i in range(6) %}<div class="gallery-soon">{{ soon or 'Fotó hamarosan' }}</div>{% endfor %}</div>
 {% endif %}
 {%- endmacro %}
 
@@ -27,7 +44,7 @@
 {%- endmacro %}
 
 {% macro book_block(p) -%}
-<section class="book">
+<section class="book{% if p.book_center %} book-center{% endif %}">
   <div class="wrap book-grid">
     <div class="book3d" aria-label="Megkerülhetetlen, Kaltenecker Kristóf könyve"><div class="book3d-inner">
       <div class="b-back"></div><div class="b-pages"></div><div class="b-spine"><span>Megkerülhetetlen</span></div>

@@ -12,9 +12,6 @@
  "description": "A könyv végén egyetlen kérés van: a saját valóságodban helyezd gyakorlatba, amit megtanultál. A Branding Roadmap ebben segít. Hamarosan.",
  "eyebrow": "A könyv záró lépése · hamarosan",
  "h1": "Ne menj vissza a hétköznapjaidba úgy, ahogy előtte működtél.",
- "promise": "A könyv az első lépése volt annak, hogy ne játssz tovább kicsiben. A Branding Roadmap a következő: egy kapcsolódási pont, ahol segítek beépíteni a gyakorlatba, amit a fejezetekben tárgyaltunk. Az anyag most készül.",
- "asset_placeholder": "Branding Roadmap",
- "asset_placeholder_sub": "hamarosan",
  "form_title": "Szólok, ha kész",
  "form_text": "Hagyd itt az e-mail-címed, és elsőként értesítünk, amikor a Branding Roadmap elérhető.",
  "form_embed": null,
@@ -27,5 +24,10 @@
  ],
  "aliases": [
   "branding_roadmap"
- ]
+ ],
+ "sub": "A könyv az első lépése volt annak, hogy ne játssz tovább kicsiben. A Branding Roadmap a következő: egy kapcsolódási pont, ahol segítek beépíteni a gyakorlatba, amit a fejezetekben tárgyaltunk. Az anyag most készül.",
+ "video": null,
+ "video_soon": true,
+ "soon_title": "A bemutató videó készül",
+ "soon_text": "Ha elkészül, itt tudod megnézni."
 }

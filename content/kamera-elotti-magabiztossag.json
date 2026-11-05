@@ -12,7 +12,6 @@
  "description": "Közel 90 perces workshop videóban a kamera előtti magabiztosságról. A Megkerülhetetlen könyv olvasóinak összeraktuk, itt elérhető.",
  "eyebrow": "Workshop a könyv olvasóinak · Stratégia fejezet",
  "h1": "Hogy állsz a kamera előtti magabiztossággal?",
- "promise": "A könyv olvasóinak összeraktunk egy közel 90 perces kamera előtti magabiztosság workshopot, egyetlen videóban. Itt megnézheted.",
  "no_form": true,
  "video": "5dUyEBMdQkk",
  "video_eyebrow": "A teljes workshop",
@@ -39,5 +38,8 @@
  "body": [
   "Ezzel egy őszinte tükröt kaphatsz, hogy mely területeken érdemes elkezdened fejlődni. Fontos, hogy ez nem helyettesíti a szakembert, csak egy szolid kiindulópontot ad.",
   "És mert az agresszív transzparencia kötelez: én is megcsináltam a gyakorlatokat, és a könyvben megmutatom, mit kaptam. Két vakfoltot a személyes oldalon, egyet az üzletin. Ezekkel most még tudok élni. De legalább már látom őket, és egy jól megfogalmazott probléma félig meg is van oldva."
- ]
+ ],
+ "sub": "A könyv olvasóinak összeraktunk egy közel 90 perces kamera előtti magabiztosság workshopot, egyetlen videóban. Itt megnézheted.",
+ "yt_button": true,
+ "book_center": true
 }

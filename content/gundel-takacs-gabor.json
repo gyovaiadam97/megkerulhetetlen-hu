@@ -6,7 +6,7 @@
  "book_thoughts": [
   "A Storytelling fejezet arról szól, mitől képes egy történet ennyire erősen hatni ránk, és hogyan áll össze az életünk különálló eseményeiből egy egységes történet.",
   "A vezérelv végig ugyanaz: a jó információt, a jó időben, a megfelelő mennyiségben add át. A reflexió szakaszában a befogadó a legnyitottabb, ha van üzeneted, ott add át.",
-  "A fejezet végén a Hatlépcsős Story Canvas vár: egy munkafüzet, amivel a saját történetedet vezeted végig hat lépésen."
+  "Olvass tovább: a fejezet lépésről lépésre megmutatja, hogyan lesz a saját élményeidből olyan történet, amire odafigyelnek."
  ],
  "title": "Nova Podcast Megkerülhetetlen Edition: Gundel Takács Gábor",
  "description": "A Storytelling fejezet vendége Gundel Takács Gábor. Arról beszélgetünk, mitől működik egy történet élőben, kamera előtt és egy vezető életében.",
@@ -37,5 +37,6 @@
   "megkerülhetetlen_Gundel_Takacs_Gabor",
   "megkerulhetetlen_Gundel_Takacs_Gabor"
  ],
- "hero_alt": "Kaltenecker Kristóf"
+ "hero_alt": "Kaltenecker Kristóf",
+ "host_role": "a Nova alapítója"
 }

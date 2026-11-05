@@ -136,6 +136,7 @@ A 17 aloldal címe (`megkerulhetetlen.hu/<slug>/`) innentől **nem változtathat
 Marad Ádám GitHub-fiókján (GitHub Pages). Megfontolt alternatívák: Rackhost tárhely (a Midi csomag 09-29 óta lejárt, befizetésre vár, 84%-ig tele, ma semmit nem szolgál ki) és a Hostinger VPS (Ádám nem kérte). Kalti fiókjába átadás nem kell. Ha valaha költözik: statikus fájlok, a QR-ok a domainre mutatnak.
 
 ## Napló
+- 2026-11-05: Kalti 10-31-es hangjegyzeteinek feldolgozása (14 db). Sablonok átírva: epizód-oldal (fotó balra, két soros Vendég/Beszélgetőtárs, blokkcím a szövegoszlopban, `photo_mid`, `hero_photos`), letöltőoldal új szerkezete (lead.html), storytelling-oldal (nem kattintható, telefonon lapozható galéria, YouTube-app gomb, `thoughts_photo`). Új: `disabled` kapcsoló + off.html, favicon, mobilos egykoppintásos videó (YT IFrame API). Szövegek a Notion-kivonatokból, humanizerrel. Ellenőrzés: 17 oldal asztali + mobil képernyőkép, záró ellenőrző szkript 34/34 zöld.
 - 2026-10-08 10:55: a nyomdai összesítő (/nyomda/ + PDF + ZIP) kiment a kiadónak → slugok véglegesek, build-őr beépítve.
 - 2026-10-08 (du. 2): kisebb kérések: képaláírások le, 3D könyv-mockup CSS-ben, borító fekete csík levágva, Inter-próba elvetve (marad Unbounded), Bese Nóra képein felső fókusz, időkapszula-galéria le. Majd ÉLESÍTÉS: DNS + CNAME.
 - 2026-10-08 (du.): Ádám kérésére: könyv-blokkban a négyzetes végleges borító (`docs/assets/img/borito-600.jpg`), a fejléc eyebrow-sor levéve minden oldalról, időkapszula-galéria csapatfotókkal (nem egyéni portrék). Vendég-werkfotók a böngészőn át letöltve (drive.usercontent.google.com/download URL-lel megy, a Drive-UI „Letöltés” gombot a szűrő blokkolja).
@@ -143,3 +144,37 @@ Marad Ádám GitHub-fiókján (GitHub Pages). Megfontolt alternatívák: Rackhos
 - 2026-10-08: build-rendszer + 3 sablon + 17 oldal megépítve a kézirat szövegére építve; repo + Pages él (előnézet github.io alatt). A Drive werkfotó-mappa letöltését a jogosultsági szűrő blokkolta → Ádám tölti le vagy megosztja. Borító: ideiglenes placeholder (`docs/assets/img/borito.jpg`), a végleges fájl kell.
 - 2026-10-08: végleges borító megérkezett (világos, teal-kék cím) — ütközik a Notion „sötét, neonkék” kérésével, döntés kell.
 - 2026-10-08: Notion-brief kinyerve API-n át (17 sor + aloldal-tartalmak), referencia-anyagok megnézve, terv megírva. Jóváhagyásra vár.
+
+## Kalti visszajelzési köre (hangjegyzetek 2026-10-31, feldolgozva 2026-11-05)
+Forrás: 14 hangjegyzet, leirat: `anyagok/kalti-visszajelzes-2026-10-31/*.txt` (WhisperX a Studión; az első futás halk részeket eldobott, a mentett változat a teljes). A podcast-kivonatok a Notion-kártyákról: `anyagok/notion-landingek-export-2026-11-05.json` (Kocsis, Tusnádi, Bese, Bolya, Szauer megvan; Gundel még nincs).
+
+### Minden oldalra
+| # | Kérés | Állapot |
+|---|---|---|
+| G1 | Mobilon a videó egy koppintásra induljon (ne kelljen a YouTube saját gombját is megnyomni) | KÉSZ: érintős eszközön előtöltött YouTube-lejátszó, a koppintás közvetlenül indít (Playwright mobil-emuláció: lejátszik). Valódi iPhone-on Kalti/Ádám próbája még kell |
+| G2 | Lábléc mobilon középre zárva | KÉSZ |
+| G3 | Favicon: átlátszó Nova-logó | KÉSZ (Nova-embléma, teal, átlátszó; favicon-32/192, apple-touch, /favicon.ico) |
+| G4 | Epizód-oldalak: Vendég és Beszélgetőtárs külön sorban; „Kaltenecker Kristóf, a Nova alapítója” | KÉSZ |
+| G5 | Epizód-oldalak: a gombok alatti blokkban a fotó bal oldalon, a szöveg jobbon (asztali) | KÉSZ |
+| G6 | „Folytasd a könyvet” utolsó bekezdése ne a fejezetvégi marketing-elemet árulja, hanem olvasásra buzdítson | KÉSZ (Storytelling- és Rendszerek-oldalak; a Stratégia-zárás eddig sem árult semmit) |
+| G7 | „Miért pont ez a beszélgetés” cím helyett a kivonat legerősebb mondata | KÉSZ (Kocsis, Tusnádi, Bese, Szauer: szó szerinti idézet; Bolya: „Podcast masterclass”) |
+
+### Oldalanként
+| Oldal | Kérés | Állapot |
+|---|---|---|
+| /karizma | Spotify-gomb; Imre fotója balra; hero-lead vége („ahonnan nem kell szabadságra mennie”); Imre = „a Karizma Podcast alapítója”; Zolgensma-mondat; „értékes valuta”; imposztor-mondat csere; AI-mondat külön bekezdés + 20-szoros megtérülés; Nova-ügyfelek mondat ki; „előző stúdió” bekezdés ki | KÉSZ (Spotify: open.spotify.com/episode/3mqAoNX7EfB4Xio5glCw3s) |
+| /gundel-takacs-gabor | 2 új werkfotó a Drive werk-mappából (hero: tágabb, közös; lent: Gábor közeli, balra); kivonat később jön; CTA-zárás | RÉSZBEN: CTA-zárás + titulus kész; a 2 új werkfotó a Drive-mappából HIÁNYZIK (a service account nem látja, a böngészős vezérlést egy bővítmény blokkolta); kivonat Kaltitól jön |
+| /storycanvas | új szerkezet: középre zárt cím + alcím → videó → gomb → 1-2-3 lista címmel → űrlap → „Hat lépés, három történetverzió” → Miért készült (középre) → gomb vissza az űrlaphoz; alsó CTA-blokk és mockup ki; Kajabi-embed ellenőrzés | KÉSZ; Kajabi-embed technikailag rendben (POST → nova.mykajabi.com/forms/2149744349/form_submissions, név+e-mail kötelező); éles próbabeküldés + Kajabi-kontakt ellenőrzés emberi kézzel hátra |
+| /stressz-teszt | ugyanaz a szerkezet, szöveg nem változik | KÉSZ |
+| /podcast-booster | ugyanaz a szerkezet, videó helyett termék-mockup; űrlapot Kalti küld | KÉSZ (űrlap-ID Kaltitól) |
+| /branding-roadmap | ugyanaz a szerkezet, videó-hely (készül), mockup le | KÉSZ (videó + űrlap Kaltitól) |
+| /idokapszula | saját indexkép a „Saját szabályokat írunk” videóhoz (csapatfotó); CTA-zárás | KÉSZ (indexkép: docs/assets/img/idokapszula-thumb.jpg, YouTube-feltöltéshez másolat: ~/Downloads/sajat-szabalyokat-irunk-thumbnail.jpg) |
+| /kocsis-attila | szövegek újra a kivonatból; cím = legerősebb gondolat; CTA-zárás a kivonatból | KÉSZ |
+| /godor-zola, /hormonmentes | le a /nyomda oldalról (QR-ral együtt), az oldal ne legyen elérhető (egyelőre) | KÉSZ: `"disabled": true` a tartalomfájlban → semleges „jelenleg nem érhető el” lap (noindex), nincs QR, nincs a /nyomda listán. A cím szándékosan él (ha a QR mégis nyomtatásba kerülne, ne 404 legyen). Visszakapcsolás: a `disabled` sor törlése + build |
+| /tusnadi-roland | hero: ne csak Roli legyen a képen; szövegek újra a kivonatból; cím = hangzatos mondat | KÉSZ; közös fotó nincs a helyi werk-anyagban → a hero két kép egymás mellett (Roli + Kalti). Ha a Drive-on van közös kép, cserélhető |
+| /bese-nora | hero-fotó vágása (szemvonal a felső harmadon); szövegek a kivonatból | KÉSZ (hero_pos 50% 42%, blokk-fotó 50% 23%) |
+| /bolya-imre | „podcast masterclass” irány címben és szövegben; blokkcím „Podcast masterclass”; Imre = „a Karizma Podcast alapítója”; mobilon a fotó a két bekezdés közé | KÉSZ |
+| /szauer-tamas | másik werkfotó a blokk mellé; cím = kulcsmondat; „a HVG vezérigazgatója”; szövegek a kivonatból | KÉSZ (blokk-fotó: DSC07756) |
+| /luminance | galéria nem kattintható; mobilon lapozható; „Megnézem a YouTube-on” gomb (app-link); idézetek: Kalti utolsó + 2 másik ember a videóból; fotócsere (nagyi, roll-up ki, csapatfotó előre, több érzelmi közeli) | KÉSZ, 2 nyitott pont: (1) a két új idézet megszólalójának neve (most „Vendég / Partner a Luminance estén”), (2) a hangjegyzetben „Kit(ti)t ne mutassuk”: nem azonosítható, kiről van szó → a ceremóniamestert mutató két képet vettem ki; a „Kalti + Ádám közös fotó” BN_08906 tipp alapján |
+| /kamera-elotti-magabiztossag | hero, videócím, videó-felirat, „Egy őszinte tükör” és a könyv-blokk középre; „Megnézem a YouTube-on” gomb | KÉSZ |
+| /werk | alcím csere; galéria: forgatási werkfotók (Kristóf küldte), nem kattintható, mobilon lapozható; legjobb fotó a „saját stockkönyvtár” blokk mellé | RÉSZBEN: alcím, nem kattintható + lapozható galéria kész; a forgatási werkfotók (Kristóf küldte) HIÁNYOZNAK → galéria-csere és a „stockkönyvtár” blokk melletti fotó akkor (a sablon tudja: `thoughts_photo`) |

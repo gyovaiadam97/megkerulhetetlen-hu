@@ -6,7 +6,7 @@
  "book_thoughts": [
   "A Rendszerek fejezet a gépezetet működtető gépezetről szól: olyan működésről a személyes márkád körül, amely nem követel minden egyes alkalommal emberfeletti erőfeszítést.",
   "Magadat nem tudod kiszervezni. De azt a rendszert, amely a gondolataidból tartalmat készít, már nem kell minden alkalommal egyedül működtetned.",
-  "A jó rendszer legszebb pillanata az, amikor nélküled is működik. A fejezet végén a Stressz Teszt megmutatja, hol tart ebben a saját működésed."
+  "A jó rendszer legszebb pillanata az, amikor nélküled is működik. Olvass tovább, és nézd meg, mi kell ahhoz, hogy a tiéd is eljusson idáig."
  ],
  "title": "2025-ös időkapszula: a Nova csapata belülről",
  "description": "Nézz bele a Nova csapatának jelenlegi állapotába. A 2025-ös időkapszula-videó a Rendszerek fejezethez tartozik.",
@@ -28,5 +28,6 @@
  "gallery": null,
  "gallery_soon": "Fotó hamarosan",
  "hero_alt": "A Nova csapata 2025-ben",
- "no_gallery": true
+ "no_gallery": true,
+ "video_poster": "/assets/img/idokapszula-thumb.jpg"
 }

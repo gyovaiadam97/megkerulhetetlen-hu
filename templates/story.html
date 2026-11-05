@@ -4,34 +4,43 @@
   {{ ui.wordmark(page.eyebrow or 'Nova storytelling · a könyvből') }}
   <div class="hero-grid">
     <div class="hero-text"><h1>{{ page.h1 }}</h1><p class="lead">{{ page.lead }}</p>{% if page.meta %}<p class="meta">{{ page.meta }}</p>{% endif %}</div>
-    <figure class="glass hero-photo">{% if page.hero_photo %}<img src="{{ page.hero_photo }}" alt="{{ page.hero_alt or '' }}" width="800" height="600">{% else %}<div class="gallery-soon" style="aspect-ratio:4/3">{{ page.hero_soon or 'Fotó hamarosan' }}</div>{% endif %}</figure>
+    <figure class="glass hero-photo">{% if page.hero_photo %}<img src="{{ page.hero_photo }}" alt="{{ page.hero_alt or '' }}" width="800" height="600"{% if page.hero_pos %} style="object-position:{{ page.hero_pos }}"{% endif %}>{% else %}<div class="gallery-soon" style="aspect-ratio:4/3">{{ page.hero_soon or 'Fotó hamarosan' }}</div>{% endif %}</figure>
   </div>
 </div></header>
 
 <section class="video"><div class="wrap narrow">
-  {{ ui.video(page.video, page.hero_photo, page.soon_title, page.soon_text) }}
+  {{ ui.video(page.video, page.hero_photo, page.soon_title, page.soon_text, page.video_poster) }}
+  {% if page.video and page.yt_button %}{{ ui.yt_app_button(page.video) }}{% endif %}
 </div></section>
 
 {% if page.thoughts %}
-<section><div class="wrap narrow">
+<section><div class="wrap{% if not page.thoughts_photo %} narrow{% endif %}">
+  {% if page.thoughts_photo %}
+  {# fotó a szöveg mellett (asztalon), telefonon a két bekezdés között #}
+  <div class="excerpt-row flip photo-mid">
+    <div class="excerpt-text">
+      {% if page.thoughts_eyebrow %}<p class="eyebrow">{{ page.thoughts_eyebrow }}</p>{% endif %}
+      <h2 class="section-title">{{ page.thoughts_title }}</h2>
+      {% for t in page.thoughts %}<p>{{ t }}</p>{% if loop.first %}<figure class="excerpt-photo mid-photo"><img src="{{ page.thoughts_photo }}" alt="{{ page.thoughts_photo_alt or '' }}" loading="lazy" width="800" height="600"></figure>{% endif %}{% endfor %}
+    </div>
+    <figure class="excerpt-photo side-photo"><img src="{{ page.thoughts_photo }}" alt="{{ page.thoughts_photo_alt or '' }}" loading="lazy" width="800" height="600"></figure>
+  </div>
+  {% else %}
   {% if page.thoughts_eyebrow %}<p class="eyebrow">{{ page.thoughts_eyebrow }}</p>{% endif %}
   <h2 class="section-title">{{ page.thoughts_title }}</h2>
   {% for t in page.thoughts %}<p>{{ t }}</p>{% endfor %}
+  {% endif %}
 </div></section>
 {% endif %}
 
 {% if page.quotes %}
-<section><div class="wrap"><div class="quotes">{% for q in page.quotes %}<blockquote class="quote"><p>„{{ q }}”</p><cite>{{ page.quote_by or 'Kaltenecker Kristóf' }}</cite></blockquote>{% endfor %}</div></div></section>
+<section><div class="wrap"><div class="quotes">{% for q in page.quotes %}<blockquote class="quote"><p>„{{ q.text if q is mapping else q }}”</p><cite>{{ (q.by if q is mapping else None) or page.quote_by or 'Kaltenecker Kristóf' }}</cite></blockquote>{% endfor %}</div></div></section>
 {% endif %}
 
 {% if not page.no_gallery %}<section><div class="wrap">
   <p class="eyebrow">Galéria</p>
   <h2 class="section-title">{{ page.gallery_title or 'Fotók' }}</h2>
-  {% if page.gallery %}
-  <div class="gallery">{% for g in page.gallery %}<a href="{{ g.full }}" target="_blank" rel="noopener"><img src="{{ g.thumb }}" alt="{{ g.alt or '' }}" loading="lazy" width="800" height="600"></a>{% endfor %}</div>
-  {% else %}
-  <div class="gallery">{% for i in range(6) %}<div class="gallery-soon">{{ page.gallery_soon or 'Fotó hamarosan' }}</div>{% endfor %}</div>
-  {% endif %}
+  {{ ui.gallery(page.gallery, page.gallery_soon) }}
 </div></section>{% endif %}
 
 {{ ui.book_block(page) }}

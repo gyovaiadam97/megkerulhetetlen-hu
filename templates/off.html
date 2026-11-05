@@ -1,0 +1,10 @@
+{% extends "base.html" %}{% import "_parts.html" as ui with context %}
+{# Ideiglenesen levett oldal: a cím él (ha a QR mégis nyomtatásba kerülne, ne 404 fogadja az olvasót), de tartalom nincs rajta. #}
+{% block head %}<meta name="robots" content="noindex,nofollow">{% endblock %}
+{% block body %}
+<header class="hero off"><div class="wrap narrow">
+  {{ ui.wordmark('') }}
+  <h1>Ez az oldal jelenleg nem érhető el.</h1>
+  <p class="lead">A tartalom, amit keresel, most nincs fent. A könyv többi kiegészítő anyagát a fejezetek QR-kódjain éred el.</p>
+</div></header>
+{% endblock %}

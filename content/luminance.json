@@ -25,73 +25,74 @@
   "Ebből a bizalomból jött létre az ország egyik legerősebb egészségügyi kommunikációja, egy piaci trendeket formáló oktatóplatform, egy innováción alapuló vállalkozói közösségépítő klub, és értékalapú márkák hangja, amit veletek közösen formálunk nap mint nap. Egy dolog köt össze mindenkit ebben a teremben: valami újat hozunk létre. És ez a dolog sokkal nagyobb, mint mi magunk."
  ],
  "quotes": [
-  "Ha valaki hisz benned feltétlenül, akkor az erőt fog adni neked, hogy minden egyes napon harcolj.",
-  "Amikor valaki ránéz egy fotóra, amit készítettünk, általában a hozzátartozó érzések is odatolulnak.",
-  "Egy dolog köt itt mindenkit össze: valami új dolgot hozunk létre. És ez sokkal nagyobb, mint önmagunk."
+  {
+   "text": "Tényleg egy történet részeként éreztem magam egyből. Meg éreztem azt, hogy ti család vagytok itt csapatként.",
+   "by": "Vendég a Luminance estén"
+  },
+  {
+   "text": "Mindenkinek ilyen munkahelyet kívánok, ahova bemegy, és csak energikusabban jön ki.",
+   "by": "Partner a Luminance estén"
+  },
+  {
+   "text": "Egy dolog köt itt mindenkit össze: valami új dolgot hozunk létre. És ez sokkal nagyobb, mint önmagunk.",
+   "by": "Kaltenecker Kristóf"
+  }
  ],
  "gallery_title": "Luminance fotóalbum",
  "gallery": [
   {
-   "full": "/assets/img/lum-bn_07867.webp",
-   "thumb": "/assets/img/lum-bn_07867-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_07921.webp",
-   "thumb": "/assets/img/lum-bn_07921-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08025.webp",
-   "thumb": "/assets/img/lum-bn_08025-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08129.webp",
-   "thumb": "/assets/img/lum-bn_08129-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08203.webp",
-   "thumb": "/assets/img/lum-bn_08203-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08222.webp",
-   "thumb": "/assets/img/lum-bn_08222-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08269.webp",
-   "thumb": "/assets/img/lum-bn_08269-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08692.webp",
-   "thumb": "/assets/img/lum-bn_08692-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08725.webp",
-   "thumb": "/assets/img/lum-bn_08725-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08774.webp",
-   "thumb": "/assets/img/lum-bn_08774-s.webp",
-   "alt": "Luminance partneresemény"
-  },
-  {
-   "full": "/assets/img/lum-bn_08916.webp",
    "thumb": "/assets/img/lum-bn_08916-s.webp",
-   "alt": "Luminance partneresemény"
+   "alt": "A Nova csapata a Luminance estén"
   },
   {
-   "full": "/assets/img/lum-bn_08131.webp",
    "thumb": "/assets/img/lum-bn_08131-s.webp",
-   "alt": "Luminance partneresemény"
+   "alt": "Közös szelfi a Luminance estén"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08906-s.webp",
+   "alt": "Nevetés a Luminance estén",
+   "pos": "50% 20%"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08507-s.webp",
+   "alt": "Vendég a Luminance estén"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08236-s.webp",
+   "alt": "Vendégek a pohárköszöntő alatt"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08419-s.webp",
+   "alt": "Kaltenecker Kristóf a színpadi beszélgetésen"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08500-s.webp",
+   "alt": "Taps a Luminance estén",
+   "pos": "50% 28%"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08612-s.webp",
+   "alt": "Ölelés a Luminance estén",
+   "pos": "50% 32%"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08222-s.webp",
+   "alt": "Vendégek az asztaloknál"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08782-s.webp",
+   "alt": "Jókedv az asztalnál"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08149-s.webp",
+   "alt": "Érkezés a Normafa Rendezvényházhoz"
+  },
+  {
+   "thumb": "/assets/img/lum-bn_08725-s.webp",
+   "alt": "Podcast-sarok a Luminance estén"
   }
  ],
  "gallery_soon": "Az album hamarosan",
- "hero_alt": "A Nova csapata és a partnerek a Luminance eseményen"
+ "hero_alt": "Vendégek a Nova Luminance partnereseményén",
+ "yt_button": true
 }

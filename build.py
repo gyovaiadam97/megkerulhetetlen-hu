@@ -26,7 +26,13 @@ for f in sorted(glob.glob(os.path.join(ROOT, "content", "*.json"))):
     p = Page(json.load(open(f, encoding="utf-8")))
     assert p["slug"] and p["template"] and p["title"], f
     out_dir = os.path.join(ROOT, "docs", p["slug"]); os.makedirs(out_dir, exist_ok=True)
-    html = env.get_template(p["template"] + ".html").render(page=p, site=SITE, rel="../")
+    # "disabled": true → az oldal ideiglenesen levéve (Kalti, 2026-10-31): a cím él, de csak egy semleges
+    # „jelenleg nem érhető el” lap van rajta, és kimarad a nyomdai összesítőből, a listából és a QR-ok közül.
+    if p.get("disabled"):
+        off = Page({"slug": p["slug"], "title": "Jelenleg nem érhető el", "description": "Ez az oldal jelenleg nem érhető el."})
+        html = env.get_template("off.html").render(page=off, site=SITE, rel="../")
+    else:
+        html = env.get_template(p["template"] + ".html").render(page=p, site=SITE, rel="../")
     html = html.replace('"/assets/', '"../assets/')  # tartalomfájlokban abszolút kép-útvonalak
     open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8").write(html)
     # redirect aliases (old Notion slugs etc.)
@@ -36,7 +42,13 @@ for f in sorted(glob.glob(os.path.join(ROOT, "content", "*.json"))):
             f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=../{p["slug"]}/"><link rel="canonical" href="{SITE["base_url"]}/{p["slug"]}/"><title>Átirányítás</title><a href="../{p["slug"]}/">Tovább</a>')
     # QR
     qd = os.path.join(ROOT, "docs", "qr"); os.makedirs(qd, exist_ok=True)
-    url = f'{SITE["base_url"]}/{p["slug"]}/'
+    if p.get("disabled"):
+        for ext in ("svg", "png"):
+            qf = os.path.join(qd, f'{p["slug"]}.{ext}')
+            if os.path.exists(qf): os.unlink(qf)
+        print(f'  /{p["slug"]}/  <- {os.path.basename(f)}  [LEVÉVE: semleges lap, nincs QR, nincs a nyomdai listán]')
+        continue
+    url =f'{SITE["base_url"]}/{p["slug"]}/'
     q = segno.make(url, error="q")
     q.save(os.path.join(qd, f'{p["slug"]}.svg'), scale=10, border=2, dark="#14181c")
     q.save(os.path.join(qd, f'{p["slug"]}.png'), scale=20, border=2, dark="#14181c")

@@ -6,12 +6,12 @@
  "book_thoughts": [
   "A Rendszerek fejezet a gépezetet működtető gépezetről szól: olyan működésről a személyes márkád körül, amely nem követel minden egyes alkalommal emberfeletti erőfeszítést.",
   "Magadat nem tudod kiszervezni. De azt a rendszert, amely a gondolataidból tartalmat készít, már nem kell minden alkalommal egyedül működtetned.",
-  "A jó rendszer legszebb pillanata az, amikor nélküled is működik. A fejezet végén a Stressz Teszt megmutatja, hol tart ebben a saját működésed."
+  "Roli mondata jó útravaló a folytatáshoz: megkerülhetetlen és megúszhatatlan, hogy szinte bármilyen területen a nehezebb utat kell választanunk. Olvass tovább."
  ],
  "title": "Nova Podcast Megkerülhetetlen Edition: Tusnádi Roland",
- "description": "Tusnádi Roland a Rendszerek fejezet vendége. Arról beszélgetünk, hogyan lesz a személyes márkából üzleti érték, és miért luxus nem érteni a saját marketingfolyamatainkat.",
- "h1": "Beszélgetés Tusnádi Rolanddal az ajánlati létráról",
- "lead": "Tusnádi Roland a Rendszerek fejezet vendége. Arról beszélgetünk, hogyan lesz a személyes márkából üzleti érték, és miért luxus nem érteni a saját marketingfolyamatainkat.",
+ "description": "Tusnádi Roland több mint tizenötezer értékesítési beszélgetésen van túl. Arról beszélgetünk, miért az önismeret a jó értékesítés alapja, és milyen rendszer kell ahhoz, hogy a megfelelő érdeklődők jussanak el hozzád.",
+ "h1": "Beszélgetés Tusnádi Rolanddal: tizenötezer értékesítési beszélgetés tanulságai",
+ "lead": "Tusnádi Roland több mint tizenötezer értékesítési beszélgetésen van túl. Arról beszélgetünk, miért az önismeret a jó értékesítés alapja, és milyen rendszer kell ahhoz, hogy a megfelelő érdeklődők jussanak el hozzád.",
  "guest": "Tusnádi Roland",
  "guest_role": "",
  "host": "Kaltenecker Kristóf",
@@ -22,12 +22,12 @@
  "spotify": "",
  "soon_title": "Az epizód vágás alatt",
  "soon_text": "A beszélgetést felvettük, a kész adás hamarosan itt lesz. Nézz vissza pár hét múlva, vagy kövesd a Nova csatornáit.",
- "excerpt_title": "Miért pont ez a beszélgetés",
+ "excerpt_title": "„Nem abban gondolkozok, hogy a világ legjobb értékesítőjére van szükségem.”",
  "excerpt": [
   {
    "text": [
-    "Minden értékesítési létrának van alja és teteje. Az alján ingyenes vagy nagyon alacsony értékű ajánlatok ülnek, feljebb a belépőszintű, még feljebb a közepes és a magas értékű ajánlatok. Minél drágább egy ajánlat, annál nagyobb személyes hozzáférést kapsz a márka középpontjában álló emberhez.",
-    "A személyes márkát monetizálni kell. Egy márka akkor realizál üzleti értéket, ha a megfelelő értékajánlatot teszed a közönséged elé, és a közönséged bízik benne, hogy leszállítod, amit ígérsz. Rolanddal erről a létráról és az ügyfélút logikájáról beszélgetünk. A kész adás kivonata ide kerül, amint az epizód elkészül."
+    "Roli szerint a jó értékesítés nem trükk és nem rábeszélés. Arról szól, hogy nagyon jól megismered és megérted a másik embert, és ez alapján segítesz neki dönteni. A kezdő vállalkozót legtöbbször saját maga akadályozza: amint a félelmeivel, az önbizalomhiányával vagy a bizonyítási kényszerével foglalkozik, a figyelme már nem a másikon van. Ezért tartja elképzelhetetlennek a tartós sikert önismereti munka nélkül, és ezért nem ad el olyat, amire a másiknak nincs szüksége.",
+    "A másik fele a rendszer. Az egyszerű, egyenes tölcsérek ideje szerinte lejárt, ma több érintési pontból álló ökoszisztémát kell építeni. Ha a tölcsér elején jól szűrsz, eleve a megfelelő érdeklődők jutnak el a beszélgetésig, és egy középszerű értékesítő is nagyszerű eredményt ér el. Az online tett állításokban már nem bíznak az emberek, ezért mindent bizonyítékkal kell alátámasztani. És mindez nem egy-két hetes sprint, hanem három-tíz évnyi építkezés."
    ],
    "photo": "/assets/img/werk-tusnadi-roland-dsc09744.webp",
    "caption": null,
@@ -38,5 +38,18 @@
   "megkerülhetetlen_Tusnadi_Roland",
   "megkerulhetetlen_Tusnadi_Roland"
  ],
- "hero_alt": "Tusnádi Roland és Kaltenecker Kristóf a Nova Podcast felvételén"
+ "hero_alt": "Tusnádi Roland és Kaltenecker Kristóf a Nova Podcast felvételén",
+ "host_role": "a Nova alapítója",
+ "hero_photos": [
+  {
+   "src": "/assets/img/werk-tusnadi-roland-dsc09738.webp",
+   "alt": "Tusnádi Roland a Nova Podcast felvételén",
+   "pos": "28% 50%"
+  },
+  {
+   "src": "/assets/img/werk-tusnadi-roland-dsc09756.webp",
+   "alt": "Kaltenecker Kristóf a Nova Podcast felvételén",
+   "pos": "50% 40%"
+  }
+ ]
 }
