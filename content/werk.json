@@ -23,59 +23,52 @@
  "thoughts_title": "A saját stockkönyvtár öt év múlva térül meg igazán",
  "thoughts": [
   "A könyvben külön írok arról, miért a saját stockkönyvtár a kedvenc építőelemem: a vezetőről készülő pillanatok, a színfalak mögötti munka öt év múlva hatványozottan térül meg. Ez az oldal ennek az elvnek a gyakorlata.",
-  "A nagyforgatáson egyszerre készült a borítófotó, a videobook anyaga és a Megkerülhetetlen Edition podcast-széria. A werkvideó és a fotók akkor kerülnek ide, amikor a vágás elkészül."
+  "A nagyforgatáson egyszerre készült a borítófotó, a videobook anyaga és a Megkerülhetetlen Edition podcast-széria. A werkvideó akkor kerül ide, amikor a vágás elkészül."
  ],
- "gallery_title": "A stúdió, ahol a könyv anyagai készültek",
+ "gallery_title": "Pillanatképek a forgatásról",
  "gallery": [
   {
-   "full": "/assets/img/hq-dsc00829.webp",
-   "thumb": "/assets/img/hq-dsc00829-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-5888-s.webp",
+   "alt": "A stáb munka közben, a háttérben Kaltenecker Kristóf"
   },
   {
-   "full": "/assets/img/hq-dsc02800.webp",
-   "thumb": "/assets/img/hq-dsc02800-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-5596-s.webp",
+   "alt": "Lámpaállítás a forgatás előtt"
   },
   {
-   "full": "/assets/img/hq-dsc02878.webp",
-   "thumb": "/assets/img/hq-dsc02878-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-6228-s.webp",
+   "alt": "Operatőr a kamera mögött"
   },
   {
-   "full": "/assets/img/hq-dsc06185.webp",
-   "thumb": "/assets/img/hq-dsc06185-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-6265-s.webp",
+   "alt": "Családtag a kamera előtt a nagyforgatáson"
   },
   {
-   "full": "/assets/img/hq-dsc02934.webp",
-   "thumb": "/assets/img/hq-dsc02934-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-6231-s.webp",
+   "alt": "Felvétel közben a monitor mellett"
   },
   {
-   "full": "/assets/img/hq-dsc02785.webp",
-   "thumb": "/assets/img/hq-dsc02785-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-6713-s.webp",
+   "alt": "Kaltenecker Kristóf az asztalnál, a könyv jegyzetei között"
   },
   {
-   "full": "/assets/img/hq-dsc00836.webp",
-   "thumb": "/assets/img/hq-dsc00836-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-5762-s.webp",
+   "alt": "A Megkerülhetetlen borítója a forgatási asztalon"
   },
   {
-   "full": "/assets/img/hq-dsc02923.webp",
-   "thumb": "/assets/img/hq-dsc02923-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-6422-s.webp",
+   "alt": "Vendég a kamera előtt a nagyforgatáson"
   },
   {
-   "full": "/assets/img/hq-dsc02757.webp",
-   "thumb": "/assets/img/hq-dsc02757-s.webp",
-   "alt": "A Nova stúdiója"
+   "thumb": "/assets/img/forgatas-5823-s.webp",
+   "alt": "A felvétel képe a kamera monitorán"
   }
  ],
  "gallery_soon": "Werkfotó hamarosan",
  "aliases": [
   "megkerulhetetlen_werk"
  ],
- "hero_alt": "Kaltenecker Kristóf a Nova podcast-stúdiójában"
+ "hero_alt": "Kaltenecker Kristóf a Nova podcast-stúdiójában",
+ "thoughts_photo": "/assets/img/forgatas-5882.webp",
+ "thoughts_photo_alt": "A nagyforgatás díszlete: kamera, lámpák és a stáb"
 }
